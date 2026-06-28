@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:fire_dragon_habitat_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:forest_dragon_habitat_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:hot_feet_burnables"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:ice_dragon_habitat_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:nether_dragon_habitat_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:reaper_plant_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:reaper_plant_destruction"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:reaper_transform"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:water_dragon_habitat_blocks"
+		}
+	]
+}

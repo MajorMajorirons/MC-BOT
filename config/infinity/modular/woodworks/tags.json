@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "woodworks:leaf_piles"
+		},
+		{
+			"weight": 1.0,
+			"key": "woodworks:wooden_boards"
+		}
+	]
+}

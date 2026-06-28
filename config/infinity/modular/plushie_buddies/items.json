@@ -1,0 +1,332 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:fabric"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_allay"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_armadillo"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_axolotl"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_bat"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_blaze"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_breeze"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_camel"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_cat"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_cave_spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_chewie"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_chicken"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_cow"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_creeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_dan_rolo"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_dark_father"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_dolphin"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_donkey"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_drowned"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_elder_guardian"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_emperor"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_enderdragon"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_enderman"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_evoker"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_fox"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_frog"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_ghast"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_glow_squid"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_goat"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_guardian"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_hoglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_horse"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_husk"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_iron_golem"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_llama"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_magma_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_mooshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_mule"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_panda"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_parrot"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_peter"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_phantom"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_pig"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_piglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_piglin_brute"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_pillager"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_polar_bear"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_pufferfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_rabbit"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_ravanger"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_sheep"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_shulker"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_skeleton_horse"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_slime"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_sniffer"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_squid"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_storm_soldier"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_stray"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_strider"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_trader_lama"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_turtle"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_vex"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_vindicator"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_wandering_trader"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_warden"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_witch"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_wither"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_wither_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_wolf"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_yoga"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_zoglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_zombie"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_zombie_villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:plushie_zombified_piglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:sewing_needle"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:stuffing"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:thread"
+		},
+		{
+			"weight": 1.0,
+			"key": "plushie_buddies:workbench"
+		}
+	]
+}

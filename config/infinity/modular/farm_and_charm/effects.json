@@ -1,0 +1,94 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16777215,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:cluck"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16777215,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:dog_food"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:farmers_blessing"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:feast"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:grandmas_blessing"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 9127187,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:horse_fodder"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:rested"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:satiation"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:sustenance"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "farm_and_charm:sweets"
+		}
+	]
+}

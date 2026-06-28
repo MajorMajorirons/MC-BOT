@@ -1,0 +1,48 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:ceiling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:hanging"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:lamp_post"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:large_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:stool"
+		}
+	]
+}

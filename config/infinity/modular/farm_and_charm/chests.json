@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "farm_and_charm:crafting_bowl"
+		},
+		{
+			"weight": 1.0,
+			"key": "farm_and_charm:mincer"
+		}
+	]
+}

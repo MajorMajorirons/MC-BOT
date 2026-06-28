@@ -1,0 +1,92 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "top_layer_modification",
+				"id": "infinity_cave:amethyst_altar"
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:amethyst_altar"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "bury",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "infinity_cave:amethyst_geode"
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:amethyst_geode"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "bury",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "infinity_cave:deep_dark_temple"
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:deep_dark_temple"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "infinity_cave:dinosaur"
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:dinosaur"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "infinity_cave:frozen_robot"
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:frozen_robot"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "infinity_cave:knuckle_trap"
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:knuckle_trap"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "infinity_cave:limestone_houses"
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:limestone_houses"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "infinity_cave:sulfide_huts"
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:sulfide_huts"
+		}
+	]
+}

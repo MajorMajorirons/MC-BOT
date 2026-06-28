@@ -1,0 +1,36 @@
+name: DynamicMarket
+version: 1.0.0
+main: com.dynamicmarket.DynamicMarket
+api-version: 1.20
+author: Server
+description: Dynamic supply/demand market for all mod items
+depend:
+  - Vault
+
+commands:
+  market:
+    description: Open the dynamic market
+    usage: /market <buy|sell|price|list|gui|help> [args...]
+    aliases: [m, shop]
+  mktadmin:
+    description: Market admin commands
+    usage: /mktadmin <additem|setprice|setcurrent|enable|disable|info|list|reload> [args...]
+    aliases: [madmin]
+  mkt-discord:
+    description: Internal Discord bot bridge command (console only)
+    usage: /mkt-discord <txId> <buy|sell|price|list> <player> [item] [qty]
+    permission: dynamicmarket.discord
+
+permissions:
+  dynamicmarket.use:
+    description: Can use the market
+    default: true
+  dynamicmarket.admin:
+    description: Market admin commands
+    default: op
+  dynamicmarket.discord:
+    description: Internal Discord bridge command
+    default: op
+  dynamicmarket.sign.create:
+    description: Create DynMarket signs
+    default: op

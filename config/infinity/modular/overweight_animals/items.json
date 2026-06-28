@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "overweight_animals:mettwurst"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_animals:overweight_chicken_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_animals:overweight_cow_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_animals:overweight_horse_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_animals:overweight_pig_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_animals:overweight_rabbit_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_animals:overweight_sheep_spawn_egg"
+		}
+	]
+}

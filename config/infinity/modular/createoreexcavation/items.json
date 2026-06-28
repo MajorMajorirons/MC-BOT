@@ -1,0 +1,48 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:diamond_drill"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:drill"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:drilling_machine"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:netherite_drill"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:raw_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:raw_emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:raw_redstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:sample_drill"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:vein_atlas"
+		},
+		{
+			"weight": 1.0,
+			"key": "createoreexcavation:vein_finder"
+		}
+	]
+}

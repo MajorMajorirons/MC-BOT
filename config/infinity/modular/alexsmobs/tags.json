@@ -1,0 +1,220 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:alligator_snapping_turtle_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:am_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:anaconda_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:cachalot_whale_breakables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:caiman_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:capuchin_monkey_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:catfish_block_fascinations"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:crocodile_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:crow_fears"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:crow_foodblocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:crow_home_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:drops_acacia_blossoms"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:drops_bananas"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:elephant_foodblocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:emu_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:endergrade_breakables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:flutter_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:fly_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:froststalker_fears"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:froststalker_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:gelada_monkey_grass"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:gorilla_breakables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:gorilla_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:grizzly_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:hummingbird_pollinates"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:hummingbird_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:kangaroo_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:komodo_dragon_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:laviathan_breakables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:leafcutter_ant_breakables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:leafcutter_pupa_usable_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:lobster_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:mantis_shrimp_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:mimic_octopus_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:mungus_replace_mushroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:mungus_replace_nether"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:orca_breakables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:platypus_digables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:platypus_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:potoo_perches"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:pupfish_eatables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:rain_frog_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:rattlesnake_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:roadrunner_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:rocky_roller_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:seal_digables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:seal_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:snow_leopard_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:soul_vulture_perches"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:soul_vulture_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:tarantula_hawk_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:tusklin_spawns"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:void_worm_breakables"
+		},
+		{
+			"weight": 1.0,
+			"key": "alexsmobs:warped_mosco_breakables"
+		}
+	]
+}

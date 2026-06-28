@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "generic"
+			},
+			"weight": 1.0,
+			"key": "blocks/locker"
+		}
+	]
+}

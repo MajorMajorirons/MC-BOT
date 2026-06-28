@@ -1,0 +1,655 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:alligator_snapping_turtle"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:anaconda"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:anteater"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:bald_eagle"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:banana_slug"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:bison"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:blobfish"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:blue_jay"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:bone_serpent"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:bone_serpent_part"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:bunfungus"
+		},
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:cachalot_whale"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:caiman"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:capuchin_monkey"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:catfish"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:centipede_head"
+		},
+		{
+			"data": {
+				"Category": "ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:cockroach"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:comb_jelly"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:cosmaw"
+		},
+		{
+			"data": {
+				"Category": "ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:cosmic_cod"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:crimson_mosquito"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:crocodile"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:crow"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:devils_hole_pupfish"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:dropbear"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:elephant"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:emu"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:endergrade"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:enderiophage"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:farseer"
+		},
+		{
+			"data": {
+				"Category": "ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:flutter"
+		},
+		{
+			"data": {
+				"Category": "ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:fly"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:flying_fish"
+		},
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:frilled_shark"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:froststalker"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:gazelle"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:gelada_monkey"
+		},
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:giant_squid"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:gorilla"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:grizzly_bear"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:guster"
+		},
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:hammerhead_shark"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:hummingbird"
+		},
+		{
+			"data": {
+				"Category": "ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:jerboa"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:kangaroo"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:komodo_dragon"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:laviathan"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:leafcutter_ant"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:lobster"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:maned_wolf"
+		},
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:mantis_shrimp"
+		},
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:mimic_octopus"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:mimicube"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:moose"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:mudskipper"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:mungus"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:murmur"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:murmur_head"
+		},
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:orca"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:platypus"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:potoo"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:raccoon"
+		},
+		{
+			"data": {
+				"Category": "ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:rain_frog"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:rattlesnake"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:rhinoceros"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:roadrunner"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:rocky_roller"
+		},
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:sea_bear"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:seagull"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:seal"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:shoebill"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:skelewag"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:skreecher"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:skunk"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:snow_leopard"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:soul_vulture"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:spectre"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:straddler"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:stradpole"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:sugar_glider"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:sunbird"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:tarantula_hawk"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:tasmanian_devil"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:terrapin"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:tiger"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:toucan"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:triops"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:tusklin"
+		},
+		{
+			"data": {
+				"Category": "ambient"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:underminer"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:void_worm"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:void_worm_part"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:warped_mosco"
+		},
+		{
+			"data": {
+				"Category": "creature"
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:warped_toad"
+		}
+	]
+}

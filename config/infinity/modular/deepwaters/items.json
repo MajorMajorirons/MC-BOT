@@ -1,0 +1,808 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "deepwaters:amethyst_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:amethyst_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:amethyst_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:amethyst_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:amethyst_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:amethyst_trident"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:amethystchandelier"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:amethystshield"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:anemone"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:anemone_in_vase"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:anemoneitem"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:anglerfish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aqua_chandelier"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_crystall"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_deepslate"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquamarine_trident"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:aquaore"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:baked_rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:banana"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:banana_golden"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:banana_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:banana_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:bananacrop"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:barrel_closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:barrel_palm"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:barrel_shroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:barrel_shroom_closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:blackpearl"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:clam_cooked"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:clammeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coconut"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coconut_cracked"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coconut_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coconut_leaves_side"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coconutcrop"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coral_ds"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coral_flat"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coral_large"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coral_largef"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coral_tether"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coralsmall_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coralsmall_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coralsmall_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coralsmall_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:coralsmall_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:corvett_tether"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:crabbucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:crabcooked"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:crabmeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:crownedjelly"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:cryslaamesthyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:cryslaaquamarine"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:cryslafopal"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:crysmeamethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:crysmeaquamarine"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:crysmefopal"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:cryssmaamethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:cryssmafopal"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:cryssmaquamarine"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:d_sfern"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_column"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_column_o"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_gate_left"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_grid_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_ornament"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_ornament_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_round"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_vase"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_vase_closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_vase_gilded"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepwaters_rolls"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:dev_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:electricspawn_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:endlesscaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fake_shrimpy_2_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fake_shrimpy_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:flaming_coral"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopal"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopal_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopal_trident"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopalaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopalchandelier"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopalcrystall"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopaloredeepslate"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopalorestone"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopalpick"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopalshield"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopalshovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:fopalsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:geyser"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:guppie_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:guppiebucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:jellyfish_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:jellyfishatthestorm"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:jellyspawn_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:koi_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:koibucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:labeo_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:labeobucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:lightning_ball_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:log_mushu"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:manowar_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:manowar_crown_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:manowar_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:manowarling_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:manowarlingt_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:medusa_lite_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:medusa_liteb_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:medusablues_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:medusabucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:medusal_2bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:medusalbucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:medusapink_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:medusapinkbucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mermaid_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mermaiden_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mr_crabs_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushu_bulb"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushu_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushu_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushu_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushu_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushu_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushublob"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushucap"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushumembran"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushumembranlitte"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushupfense"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushupslab"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushupstairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mushuvine"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mycelium_mushu"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:nyl_grass"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:nyl_grass_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:nyl_grass_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:nyl_grass_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:nyl_shroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_banana_centre"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_coconut_centre"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_cone"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_leaves_side"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palm_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palmfense"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:palmlog"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:pearl"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:pirate_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:pterophyllum_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:risecrop"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:risotto"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:rum"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:rum_cake"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:rumempty"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:s_coral_in_vase"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:saber"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:sappling_banana"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:sappling_coconut"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:sappling_mushu"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:sappling_palm"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:scalariabucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:sea_goat_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:sea_sugar_cane"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:seabunny_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:seabunnybucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:seareed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:searise_crop"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shawk_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shellcounter"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shellcounterclosed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shelly"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shrimp_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shrimp_cooked"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shrimpmeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shrimpy_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shrine_tether"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:stalagmite"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:starfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:stormcall_altar"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:strug_tether"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:swordfish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:thunder_spawn_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:tower_tether"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:watertomato"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:watertomato_crop"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:whale_spawn_egg"
+		}
+	]
+}

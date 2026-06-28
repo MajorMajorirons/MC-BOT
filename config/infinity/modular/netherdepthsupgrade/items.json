@@ -1,0 +1,344 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:baked_blazefish_stew"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:baked_glowdine_stew"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:baked_lava_pufferfish_stew"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:baked_magmacubefish_stew"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:baked_obsidianfish_stew"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:baked_searing_cod_stew"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:baked_soulsucker_stew"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:blazefish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:blazefish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:blazefish_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:blazefish_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:blazefish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:bonefish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:bonefish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:bonefish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:cooked_glowdine_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:cooked_lava_pufferfish_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:cooked_magmacubefish_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:cooked_obsidianfish_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:cooked_soulsucker_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:crimson_kelp"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:crimson_kelp_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:crimson_kelp_carpet_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:crimson_seagrass"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:eyeball"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:eyeball_fish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:eyeball_fish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:eyeball_fish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:fortress_grouper"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:fortress_grouper_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:fortress_grouper_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:fortress_grouper_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:glowdine"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:glowdine_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:glowdine_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:glowdine_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:glowdine_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:grilled_blazefish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:grilled_glowdine"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:grilled_lava_pufferfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:grilled_magmacubefish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:grilled_obsidianfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:grilled_searing_cod"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:grilled_soulsucker"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_pufferfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_pufferfish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_pufferfish_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_pufferfish_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_pufferfish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_sponge"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:magmacubefish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:magmacubefish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:magmacubefish_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:magmacubefish_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:magmacubefish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:nether_rice_roll_medley_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:obsidianfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:obsidianfish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:obsidianfish_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:obsidianfish_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:obsidianfish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:searing_cod"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:searing_cod_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:searing_cod_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:searing_cod_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:searing_cod_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:soul_sucker_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:soul_sucker_leather"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:soulsucker"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:soulsucker_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:soulsucker_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:soulsucker_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:soulsucker_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:warped_kelp"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:warped_kelp_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:warped_kelp_carpet_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:warped_kelp_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:warped_kelp_roll_slice"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:warped_seagrass"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:wet_lava_sponge"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:wither_bonefish"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:wither_bonefish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:wither_bonefish_spawn_egg"
+		}
+	]
+}

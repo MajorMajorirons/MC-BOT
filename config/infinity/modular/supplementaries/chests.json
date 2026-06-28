@@ -1,0 +1,212 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "supplementaries:book_pile"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:book_pile_horizontal"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:cannon"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:doormat"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:flower_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:hourglass"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:jar"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:lunch_basket"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:notice_board"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:present_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:pulley_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:rope_buntings"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:sack"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:safe"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:statue"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:suspicious_gravel_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_present_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:urn"
+		}
+	]
+}

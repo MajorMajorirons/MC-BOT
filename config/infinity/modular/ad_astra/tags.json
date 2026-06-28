@@ -1,0 +1,112 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ad_astra:aeronos_caps"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:cable_ducts"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:calorite_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:calorite_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:desh_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:desh_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:destroyed_in_space"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:flags"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:fluid_pipe_ducts"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:glacian_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:glacio_stone_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:globes"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:ice_shard_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:launch_pads"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:mars_stone_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:mercury_stone_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:moon_stone_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:ostrum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:ostrum_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:passes_flood_fill"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:raw_calorite_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:raw_desh_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:raw_ostrum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:sliding_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:steel_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:strophar_caps"
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:venus_stone_replaceables"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:glider_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:incoming_lightning"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:space_deploy"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:space_glide"
+		}
+	]
+}

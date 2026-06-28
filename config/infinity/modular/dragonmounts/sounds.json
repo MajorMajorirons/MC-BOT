@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:entity.dragon.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:entity.dragon.ambient.ghost"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:entity.dragon.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:entity.dragon.step"
+		}
+	]
+}

@@ -1,0 +1,120 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "contact:black_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:blue_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:brown_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:center_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:cyan_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:ender_parcel"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:ender_postcard"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:ender_wrapping_paper"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:envelope"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:gray_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:green_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:green_postbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:letter"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:light_blue_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:light_gray_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:lime_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:magenta_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:orange_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:parcel"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:pink_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:postcard"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:purple_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:red_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:red_packet"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:red_packet_envelope"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:red_postbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:white_mailbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:wrapping_paper"
+		},
+		{
+			"weight": 1.0,
+			"key": "contact:yellow_mailbox"
+		}
+	]
+}

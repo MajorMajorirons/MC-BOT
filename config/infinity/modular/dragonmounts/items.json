@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:dragon_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "dragonmounts:spawn_egg"
+		}
+	]
+}

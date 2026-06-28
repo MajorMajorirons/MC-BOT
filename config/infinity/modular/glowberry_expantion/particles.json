@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowing_leather_particle"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:puple_glow_particle"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:vined_spore_cloud"
+		}
+	]
+}

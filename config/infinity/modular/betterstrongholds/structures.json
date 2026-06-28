@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "strongholds",
+				"id": "betterstrongholds:stronghold"
+			},
+			"weight": 1.0,
+			"key": "betterstrongholds:stronghold"
+		}
+	]
+}

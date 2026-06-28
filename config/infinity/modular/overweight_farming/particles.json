@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:dripping_melon"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:falling_melon"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:landing_melon"
+		}
+	]
+}

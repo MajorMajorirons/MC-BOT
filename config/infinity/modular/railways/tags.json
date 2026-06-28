@@ -1,0 +1,164 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "railways:internal/glass/colorless"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:locometal_boilers"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:painting_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/boiler"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/brass_wrapped_boiler"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/brass_wrapped_slashed"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/brass_wrapped_smokebox"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/copper_wrapped_boiler"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/copper_wrapped_slashed"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/copper_wrapped_smokebox"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/end_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/flat_riveted"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/flat_slashed"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/flywheel"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/folding_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/four_pane_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/hazard_stripes_chevron_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/hazard_stripes_chevron_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/hazard_stripes_diagonal_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/hazard_stripes_diagonal_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/hinged_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/iron_wrapped_boiler"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/iron_wrapped_slashed"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/iron_wrapped_smokebox"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/plated"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/riveted"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/round_pane_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/rung_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/single_pane_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/slashed"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/sliding_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/smokebox"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/two_pane_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:palettes/dye_groups/vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:semaphore_poles"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:track_casing_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:track_casing_whitelist"
+		}
+	]
+}

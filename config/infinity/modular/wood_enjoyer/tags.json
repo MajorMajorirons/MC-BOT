@@ -1,0 +1,36 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:carveable"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:firewoods"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:sculptures"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_logs"
+		}
+	]
+}

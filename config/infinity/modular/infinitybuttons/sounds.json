@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:alarm"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:doorbell"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:stone_scrape"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:wood_scrape"
+		}
+	]
+}

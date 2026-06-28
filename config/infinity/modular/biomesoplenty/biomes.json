@@ -1,0 +1,445 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Color": 10876919
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:auroral_garden"
+		},
+		{
+			"data": {
+				"Color": 9165671
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:bayou"
+		},
+		{
+			"data": {
+				"Color": 13008731
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:bog"
+		},
+		{
+			"data": {
+				"Color": 6993519
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:clover_patch"
+		},
+		{
+			"data": {
+				"Color": 11904876
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:cold_desert"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:coniferous_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:crag"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:crystalline_chasm"
+		},
+		{
+			"data": {
+				"Color": 12040035
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:dead_forest"
+		},
+		{
+			"data": {
+				"Color": 14344371
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:dryland"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:dune_beach"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:erupting_inferno"
+		},
+		{
+			"data": {
+				"Color": 6533741
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:field"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:fir_clearing"
+		},
+		{
+			"data": {
+				"Color": 6016293
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:floodplain"
+		},
+		{
+			"data": {
+				"Color": 6533741
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:forested_field"
+		},
+		{
+			"data": {
+				"Color": 14738722
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:fungal_jungle"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:glowing_grotto"
+		},
+		{
+			"data": {
+				"Color": 5618801
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:grassland"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:highland"
+		},
+		{
+			"data": {
+				"Color": 9156462
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:jade_cliffs"
+		},
+		{
+			"data": {
+				"Color": 10601325
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:lavender_field"
+		},
+		{
+			"data": {
+				"Color": 10601325
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:lavender_forest"
+		},
+		{
+			"data": {
+				"Color": 13881686
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:lush_desert"
+		},
+		{
+			"data": {
+				"Color": 13881686
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:lush_savanna"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:maple_woods"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:marsh"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:mediterranean_forest"
+		},
+		{
+			"data": {
+				"Color": 7914605
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:moor"
+		},
+		{
+			"data": {
+				"Color": 9280363
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:muskeg"
+		},
+		{
+			"data": {
+				"Color": 7397557
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:mystic_grove"
+		},
+		{
+			"data": {
+				"Color": 12040035
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:old_growth_dead_forest"
+		},
+		{
+			"data": {
+				"Color": 8762376
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:old_growth_woodland"
+		},
+		{
+			"data": {
+				"Color": 7030908
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:ominous_woods"
+		},
+		{
+			"data": {
+				"Color": 13236061
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:orchard"
+		},
+		{
+			"data": {
+				"Color": 3866368
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:origin_valley"
+		},
+		{
+			"data": {
+				"Color": 13100658
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:pasture"
+		},
+		{
+			"data": {
+				"Color": 13100658
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:prairie"
+		},
+		{
+			"data": {
+				"Color": 13553994
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:pumpkin_patch"
+		},
+		{
+			"data": {
+				"Color": 8970560
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:rainforest"
+		},
+		{
+			"data": {
+				"Color": 9355074
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:redwood_forest"
+		},
+		{
+			"data": {
+				"Color": 8970560
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:rocky_rainforest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:rocky_shrubland"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:scrubland"
+		},
+		{
+			"data": {
+				"Color": 13742666
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:seasonal_forest"
+		},
+		{
+			"data": {
+				"Color": 13746762
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:seasonal_orchard"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:shrubland"
+		},
+		{
+			"data": {
+				"Color": 7705454
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:snowblossom_grove"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:snowy_coniferous_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:snowy_fir_clearing"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:snowy_maple_woods"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:spider_nest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:tropics"
+		},
+		{
+			"data": {
+				"Color": 12949340
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:tundra"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:undergrowth"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:visceral_heap"
+		},
+		{
+			"data": {
+				"Color": 5537090
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:volcanic_plains"
+		},
+		{
+			"data": {
+				"Color": 5537090
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:volcano"
+		},
+		{
+			"data": {
+				"Color": 11904876
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:wasteland"
+		},
+		{
+			"data": {
+				"Color": 13091727
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:wasteland_steppe"
+		},
+		{
+			"data": {
+				"Color": 5215831
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:wetland"
+		},
+		{
+			"data": {
+				"Color": 3222582
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:withered_abyss"
+		},
+		{
+			"data": {
+				"Color": 8762376
+			},
+			"weight": 1.0,
+			"key": "biomesoplenty:woodland"
+		}
+	]
+}

@@ -1,0 +1,512 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "simplyswords:arcanethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:awakened_lichblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:bramblethorn"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:brimstone_claymore"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:caelestis"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:contained_remnant"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:decaying_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_chakram"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_claymore"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_cutlass"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_glaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_greataxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_greathammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_halberd"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_katana"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_longsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_rapier"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_sai"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_spear"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_twinblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:diamond_warglaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dormant_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:emberblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:emberlash"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:empowered_remnant"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:enigma"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:flamewind"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:frostfall"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_chakram"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_claymore"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_cutlass"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_glaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_greataxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_greathammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_halberd"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_katana"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_longsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_rapier"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_sai"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_spear"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_twinblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:gold_warglaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:harbinger"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:hearthflame"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:hiveheart"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:icewhisper"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_chakram"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_claymore"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_cutlass"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_glaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_greataxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_greathammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_halberd"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_katana"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_longsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_rapier"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_sai"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_spear"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_twinblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:iron_warglaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:livyatan"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magiblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magiscythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magispear"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:mjolnir"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:molten_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherfused_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_chakram"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_claymore"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_cutlass"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_glaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_greataxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_greathammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_halberd"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_katana"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_longsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_rapier"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_sai"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_spear"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_twinblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:netherite_warglaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:ribboncleaver"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:righteous_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runefused_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_chakram"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_claymore"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_cutlass"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_glaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_greataxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_greathammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_halberd"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_katana"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_longsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_rapier"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_sai"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_spear"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_twinblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:runic_warglaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:shadowsting"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:slumbering_lichblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:soulkeeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:soulpyre"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:soulrender"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:soulstealer"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:stars_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:stormbringer"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:storms_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:sunfire"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:sword_on_a_stick"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:tainted_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:tampered_remnant"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:tempest"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:thunderbrand"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:toxic_longsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:twisted_blade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:waking_lichblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:watcher_claymore"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:watching_warglaive"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:waxweaver"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:whisperwind"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:wickpiercer"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "schedules": [
+    {
+      "id": "default",
+      "label": "毎日 02:41",
+      "cron": "41 2 * * *",
+      "warnings": [
+        { "value": 1, "unit": "hours" }
+      ]
+    }
+  ]
+}

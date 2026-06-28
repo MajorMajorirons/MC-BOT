@@ -1,0 +1,13 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": -103,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:radiance"
+		}
+	]
+}

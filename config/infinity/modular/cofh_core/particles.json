@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "cofh_core:frost"
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:plasma_ball"
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:spark"
+		}
+	]
+}

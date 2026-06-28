@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Specification-Title: SubtleEffects
+Specification-Vendor: MincraftEinstein
+Specification-Version: 1.14.3
+Implementation-Title: forge
+Implementation-Version: 1.14.3
+Implementation-Vendor: MincraftEinstein
+Built-On-Minecraft: 1.20.1
+MixinConfigs: subtle_effects.mixins.json,subtle_effects.forge.mixins.jso
+ n
+

@@ -1,0 +1,256 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/crimson_kelp"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/crimson_kelp_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/crimson_kelp_carpet_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/crimson_kelp_plant"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/crimson_seagrass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/lava_glass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/lava_sponge"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/tall_crimson_seagrass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/tall_warped_seagrass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/warped_kelp"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/warped_kelp_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/warped_kelp_carpet_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/warped_kelp_plant"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/warped_seagrass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "blocks/wet_lava_sponge"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/blazefish"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/bonefish"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/eyeball_fish"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/fortressgrouper"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/glowdine"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/lava_pufferfish"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/magmacubefish"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/obsidianfish"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/searing_cod"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/soulsucker"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entities/wither_bonefish"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/failed_fishing"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/failed_fishing/junk"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/lava_fishing"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/lava_fishing/fish"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/lava_fishing/junk"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/lava_fishing/treasure"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/nether_fishing"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/nether_fishing/fish"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/nether_fishing/junk"
+		},
+		{
+			"data": {
+				"Type": "fishing"
+			},
+			"weight": 1.0,
+			"key": "gameplay/nether_fishing/treasure"
+		}
+	]
+}

@@ -1,0 +1,452 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Color": 10387789
+			},
+			"weight": 1.0,
+			"key": "minecraft:badlands"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:bamboo_jungle"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:basalt_deltas"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:beach"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:birch_forest"
+		},
+		{
+			"data": {
+				"Color": 11983713
+			},
+			"weight": 1.0,
+			"key": "minecraft:cherry_grove"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:cold_ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:crimson_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:dark_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:deep_cold_ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:deep_dark"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:deep_frozen_ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:deep_lukewarm_ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:deep_ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:desert"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:dripstone_caves"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:end_barrens"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:end_highlands"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:end_midlands"
+		},
+		{
+			"data": {
+				"Color": 10387789
+			},
+			"weight": 1.0,
+			"key": "minecraft:eroded_badlands"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:flower_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:frozen_ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:frozen_peaks"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:frozen_river"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:grove"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:ice_spikes"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:jagged_peaks"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:jungle"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:lukewarm_ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:lush_caves"
+		},
+		{
+			"data": {
+				"Color": 9285927
+			},
+			"weight": 1.0,
+			"key": "minecraft:mangrove_swamp"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:meadow"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:mushroom_fields"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:nether_wastes"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:old_growth_birch_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:old_growth_pine_taiga"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:old_growth_spruce_taiga"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:plains"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:river"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:savanna"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:savanna_plateau"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:small_end_islands"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:snowy_beach"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:snowy_plains"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:snowy_slopes"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:snowy_taiga"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:soul_sand_valley"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:sparse_jungle"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:stony_peaks"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:stony_shore"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:sunflower_plains"
+		},
+		{
+			"data": {
+				"Color": 6975545
+			},
+			"weight": 1.0,
+			"key": "minecraft:swamp"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:taiga"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:the_end"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:the_void"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:warm_ocean"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:warped_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:windswept_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:windswept_gravelly_hills"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:windswept_hills"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "minecraft:windswept_savanna"
+		},
+		{
+			"data": {
+				"Color": 10387789
+			},
+			"weight": 1.0,
+			"key": "minecraft:wooded_badlands"
+		}
+	]
+}

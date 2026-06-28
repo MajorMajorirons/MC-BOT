@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:call_bell_tinkle_paw"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:mixed_beer_default"
+		}
+	]
+}

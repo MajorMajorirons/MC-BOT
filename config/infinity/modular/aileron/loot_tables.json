@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "generic"
+			},
+			"weight": 1.0,
+			"key": "chests/end_city_treasure_elytra_enchants"
+		}
+	]
+}

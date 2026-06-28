@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "littlejoys:drop_rush"
+		},
+		{
+			"weight": 1.0,
+			"key": "littlejoys:drop_rush_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "littlejoys:drop_rush_stop"
+		},
+		{
+			"weight": 1.0,
+			"key": "littlejoys:gold_rush"
+		}
+	]
+}

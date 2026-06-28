@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "diagonalwindows:minecraft/$_stained_glass_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "diagonalwindows:quark/$_framed_glass_pane"
+		}
+	]
+}

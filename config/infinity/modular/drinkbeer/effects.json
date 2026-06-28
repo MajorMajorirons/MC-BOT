@@ -1,0 +1,22 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": -8531,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "drinkbeer:drunk"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": -14774017,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "drinkbeer:drunk_frost_walker"
+		}
+	]
+}

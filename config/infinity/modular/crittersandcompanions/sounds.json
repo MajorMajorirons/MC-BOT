@@ -1,0 +1,88 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.bite_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.bubble_pop"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.dragonfly.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.ferret.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.ferret.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.ferret.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.leaf_insect.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.leaf_insect.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.otter.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.otter.clam_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.otter.clam_break_land"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.otter.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.otter.eat"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.otter.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.otter.swim"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.red_panda.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.red_panda.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.red_panda.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.sea_bunny.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.sea_bunny.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:entity.shima_enaga.ambient"
+		}
+	]
+}

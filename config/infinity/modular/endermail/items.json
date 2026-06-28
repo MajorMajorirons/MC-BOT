@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "endermail:locker"
+		},
+		{
+			"weight": 1.0,
+			"key": "endermail:package"
+		},
+		{
+			"weight": 1.0,
+			"key": "endermail:package_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "endermail:packing_tape"
+		},
+		{
+			"weight": 1.0,
+			"key": "endermail:stamp"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "createbigcannons:molten_bronze"
+			},
+			"weight": 1.0,
+			"key": "createbigcannons:molten_bronze"
+		},
+		{
+			"data": {
+				"fluidName": "createbigcannons:molten_cast_iron"
+			},
+			"weight": 1.0,
+			"key": "createbigcannons:molten_cast_iron"
+		},
+		{
+			"data": {
+				"fluidName": "createbigcannons:molten_nethersteel"
+			},
+			"weight": 1.0,
+			"key": "createbigcannons:molten_nethersteel"
+		},
+		{
+			"data": {
+				"fluidName": "createbigcannons:molten_steel"
+			},
+			"weight": 1.0,
+			"key": "createbigcannons:molten_steel"
+		}
+	]
+}

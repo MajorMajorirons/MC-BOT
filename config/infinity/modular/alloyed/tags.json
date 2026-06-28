@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_instruments"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:casing"
+		}
+	]
+}

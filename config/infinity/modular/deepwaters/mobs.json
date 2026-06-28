@@ -1,0 +1,207 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:anglerfish"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:cianea_capillada"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:electricspawn"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:fake_shrimpy"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:fake_shrimpy_2"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:guppie"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:jellyspawn"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:koi"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:labeo"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:lightning_ball"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:manowarling"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:manowarlingt"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:medusa_lite"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:medusa_liteb"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:medusablues"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:medusapink"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:mermaid"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:mermaiden"
+		},
+		{
+			"data": {
+				"Category": "ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:mr_crabs"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:pirate"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:pterophyllum"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:sea_goat"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:sea_goat_tamed"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:seabunny"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:shawk"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:shrimpy"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:swordfish"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:thunder_spawn"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "deepwaters:whale"
+		}
+	]
+}

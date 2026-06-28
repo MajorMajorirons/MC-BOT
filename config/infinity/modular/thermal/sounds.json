@@ -1,0 +1,112 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "thermal:block.device_water_gen"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:block.machine_bottler"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:block.machine_crucible"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:block.machine_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:block.machine_pulverizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:block.machine_sawmill"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:block.machine_smelter"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.basalz.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.basalz.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.basalz.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.basalz.roam"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.basalz.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blitz.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blitz.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blitz.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blitz.roam"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blitz.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blizz.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blizz.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blizz.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blizz.roam"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:entity.blizz.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:item.armor.equip_beekeeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:item.armor.equip_diving"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:item.armor.equip_hazmat"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:item.magnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:misc.tinker"
+		}
+	]
+}

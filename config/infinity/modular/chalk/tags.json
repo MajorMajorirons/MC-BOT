@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "chalk:chalk_cannot_draw_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "chalk:chalk_marks"
+		}
+	]
+}

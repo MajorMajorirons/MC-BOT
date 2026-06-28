@@ -1,0 +1,116 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "railways:$_brass_wrapped_locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_brass_wrapped_locometal_boiler"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_copper_wrapped_locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_copper_wrapped_locometal_boiler"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_copper_wrapped_locometal_smokebox"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_flat_riveted_locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_flat_slashed_locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_four_pane_locometal_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_hazard_stripes_chevron_on_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_hazard_stripes_chevron_on_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_hazard_stripes_diagonal_on_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_hazard_stripes_diagonal_on_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_iron_wrapped_locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_iron_wrapped_locometal_boiler"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_iron_wrapped_locometal_smokebox"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_locometal_boiler"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_locometal_end_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_locometal_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_locometal_smokebox"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_locometal_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_locometal_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_plated_locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_riveted_locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_round_pane_locometal_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_single_pane_locometal_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_slashed_locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_two_pane_locometal_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:$_wrapped_locometal_smokebox"
+		}
+	]
+}

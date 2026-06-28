@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "punji:punji"
+		},
+		{
+			"weight": 1.0,
+			"key": "punji:punji_creative"
+		},
+		{
+			"weight": 1.0,
+			"key": "punji:punji_reinforced"
+		}
+	]
+}

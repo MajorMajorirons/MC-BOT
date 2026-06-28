@@ -1,0 +1,376 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:acacia_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:bamboo_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:birch_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cherry_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_bowl"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_chest_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:chestnut_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:copper_chisel"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:crimson_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_acacia_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_bamboo_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_birch_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_cherry_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_chestnut_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_crimson_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_dark_oak_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_jungle_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_lunar_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_mangrove_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_oak_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_spruce_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_walnut_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:cut_warped_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:dark_oak_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:jungle_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_handle"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_shrub"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:lunar_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:mangrove_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:netherite_chisel"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:oak_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:spruce_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:stripped_chestnut_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:stripped_chestnut_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:stripped_lunar_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:stripped_lunar_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:stripped_walnut_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:stripped_walnut_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:stump"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:sweet_pumpkin_pie"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_bowl"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_chest_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:walnut_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:warped_firewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:warped_handle"
+		}
+	]
+}

@@ -1,0 +1,175 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 7882315,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:bug_pheromones"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 12405579,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:clinging"
+		},
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": 16774021,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:debilitating_sting"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 15788513,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:earthquake"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 6829738,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:ender_flu"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 15552849,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:exsanguination"
+		},
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": 7632119,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:fear"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 6837313,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:fleet_footed"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 8803127,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:knockback_resistance"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16738816,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:lava_vision"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 13401712,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:mosquito_repellent"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16771228,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:oiled"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 4868690,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:orcas_might"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 5373871,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:poison_resistance"
+		},
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:power_down"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 9698815,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:soulsteal"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16771769,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:sunbird_blessing"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 16771769,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:sunbird_curse"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16766814,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "alexsmobs:tigers_blessing"
+		}
+	]
+}

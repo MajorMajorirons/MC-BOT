@@ -1,0 +1,68 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:crafter_manager"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:crafting_grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:crafting_monitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:creative_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:detector"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:disk_manipulator"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:fluid_grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:network_receiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:network_transmitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:pattern_grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:relay"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:security_manager"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:wireless_transmitter"
+		}
+	]
+}

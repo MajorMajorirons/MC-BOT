@@ -1,0 +1,144 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:blue_glowberry_extract"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:blue_glowberrys"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:chisel"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:engraved_glow_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:gem_engraver"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:gem_pouch"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glow_berry_extract"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_cake"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_refiner"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberrypie"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowing_chiseled_deepslate"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowing_chiseled_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowing_green_chiseled_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowing_leather_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowing_leather_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowing_leather_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowstone_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowvineblue"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowvinegreen"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowvinepurple"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:green_glowberry_extract"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:green_glowberrys"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:ignore"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:ingraved_amethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:ingraved_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:ingraved_emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:lapis_launch_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:lapis_launch_gem_empty"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:mortar_and_pestle"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:purple_glowberry_extract"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:purple_glowberrys"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:radiant_light_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:the_vined_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:vined_blossem_helmet"
+		}
+	]
+}

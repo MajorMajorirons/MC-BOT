@@ -1,0 +1,664 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "simplyswords:activate_plinth_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:ambience_wind_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_activation_distorted"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_attack_with_blood_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_attack_with_blood_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_attack_with_blood_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_breaks"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_enchant"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_parry"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_spell"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_unfold"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_whoosh_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_whoosh_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_whoosh_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:dark_sword_whoosh_04"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:distortion_arc_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:distortion_arc_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:distortion_arc_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_earth_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_earth_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_earth_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_earth_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_earth_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_earth_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_fire_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_fire_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_fire_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_fire_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_fire_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_fire_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_holy_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_holy_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_holy_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_holy_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_holy_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_holy_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_ice_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_ice_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_ice_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_ice_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_ice_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_ice_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_poison_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_poison_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_poison_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_recharge"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_sci-fi_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_sci-fi_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_sci-fi_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_sci-fi_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_sci-fi_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_sci-fi_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_thunder_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_thunder_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_thunder_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_thunder_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_thunder_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_thunder_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_water_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_water_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_water_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_water_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_water_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_water_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_wind_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_wind_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_wind_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_wind_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_wind_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_bow_wind_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_earth_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_earth_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_earth_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_fire_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_fire_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_fire_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_holy_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_holy_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_holy_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_ice_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_ice_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_ice_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_sci-fi_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_sci-fi_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_sci-fi_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_thunder_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_thunder_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_thunder_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_water_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_water_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_water_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_wind_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_wind_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:elemental_sword_wind_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_charge_long_version"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_charge_short_version"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_pull_back_long_version_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_pull_back_long_version_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_pull_back_long_version_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_pull_back_short_version_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_pull_back_short_version_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_pull_back_short_version_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_flyby_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_flyby_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_flyby_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_impact_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_impact_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_impact_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_miss_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_miss_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_bow_shoot_miss_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_nordic_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_nordic_21"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_nordic_22"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_nordic_23"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_nordic_27"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_voice_04"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_voice_12"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_voice_15"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_shamanic_voice_20"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_attack_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_attack_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_attack_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_attack_04"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_attack_with_blood_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_attack_with_blood_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_attack_with_blood_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_attack_with_blood_04"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_block_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_block_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_breaks"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_parry_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_parry_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_parry_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_parry_04"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_parry_various_hits"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_spell_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_spell_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_spell_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_whoosh_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_whoosh_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_whoosh_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_whoosh_04"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_whoosh_05"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_whoosh_06"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:magic_sword_whoosh_07"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:object_impact_thud"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:object_impact_thud_repeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:slash_01"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:spell_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:spell_misc_02"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:stone_slide_loop_03"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:swing_normal"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:swing_omen_one"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:swing_omen_two"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:swing_scifi"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:swing_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:swing_woosh"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:throw_mjolnir"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:throw_mjolnir_long"
+		},
+		{
+			"weight": 1.0,
+			"key": "simplyswords:throw_mjolnir_short"
+		}
+	]
+}

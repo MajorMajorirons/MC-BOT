@@ -1,0 +1,75 @@
+worlds:
+  world:
+    worldborder: 5.9999968E7
+    difficulty: EASY
+    seed: -3384964713146502994
+    environment: NORMAL
+    name: world
+    info: -/-
+    mohist: false
+    keepspawninmemory: true
+  mercury_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  DIM-1:
+    worldborder: 5.9999968E7
+  generated_1120186595:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: infinity
+    difficulty: EASY
+  DIM1:
+    worldborder: 5.9999968E7
+  mercury:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  moon_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  glacio:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  moon:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  mars:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  venus_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  twilight_forest:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: twilightforest
+  venus:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  glacio_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  endlesscaves:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: deepwaters
+  earth_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  otherside:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: deeperdarker
+  mars_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra

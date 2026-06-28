@@ -1,0 +1,229 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:astral_shift"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:battle_fatigue"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:echo"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:elemental_vortex"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:fatal_flicker"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:fire_vortex"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:flameseed"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:freeze"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:frenzy"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:frost_vortex"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:immolation"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:magislam"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:magistorm"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:onslaught"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:pain"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:resilience"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:ribboncleave"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:ribbonwrath"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:smouldering"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:spore_swarm"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:storm"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:void_assault"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:voidcloak"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:ward"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1124687,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "simplyswords:wildfire"
+		}
+	]
+}

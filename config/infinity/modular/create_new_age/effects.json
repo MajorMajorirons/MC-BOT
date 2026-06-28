@@ -1,0 +1,13 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 4781378,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "create_new_age:radiation_poisoning"
+		}
+	]
+}

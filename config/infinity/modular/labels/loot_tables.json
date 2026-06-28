@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "entity/label"
+		}
+	]
+}

@@ -1,0 +1,120 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ropebridge:acacia_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:acacia_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:bamboo_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:bamboo_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:birch_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:birch_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:bridge_builder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:bridge_builder_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:bridge_builder_handle"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:bridge_builder_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:cherry_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:cherry_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:crimson_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:crimson_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:dark_oak_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:dark_oak_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:jungle_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:jungle_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:ladder_builder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:ladder_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:mangrove_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:mangrove_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:oak_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:oak_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:rope"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:spruce_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:spruce_rope_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:warped_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:warped_rope_ladder"
+		}
+	]
+}

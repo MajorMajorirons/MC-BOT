@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_apple_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_obstacles"
+		}
+	]
+}

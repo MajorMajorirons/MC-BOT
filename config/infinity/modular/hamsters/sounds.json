@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "hamsters:entity.hamster.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "hamsters:entity.hamster.beg"
+		},
+		{
+			"weight": 1.0,
+			"key": "hamsters:entity.hamster.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "hamsters:entity.hamster.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "hamsters:entity.hamster.sleep"
+		}
+	]
+}

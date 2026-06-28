@@ -1,0 +1,168 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "c:allows_cooking"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:bookshelves"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:bronze_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:budding_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:buds"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:calorite_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:calorite_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:cast_iron_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:chests"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:clusters"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:desh_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:desh_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glass_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glass_panes"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ice_shard_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:nethersteel_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ostrum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ostrum_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:quartz_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:raw_calorite_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:raw_desh_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:raw_ostrum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:red_sandstone_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:red_sandstone_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:red_sandstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:relocation_not_supported"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:shulker_boxes"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:steel_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/cast_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/nethersteel"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:uncolored_sandstone_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:uncolored_sandstone_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:uncolored_sandstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:villager_job_sites"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:wooden_barrels"
+		}
+	]
+}

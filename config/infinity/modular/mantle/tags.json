@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mantle:gauges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mantle:gauges/attached"
+		}
+	]
+}

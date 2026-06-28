@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:engraved_gem_use"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:engraver_use"
+		}
+	]
+}

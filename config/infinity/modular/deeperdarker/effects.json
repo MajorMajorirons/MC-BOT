@@ -1,0 +1,13 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 65488,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:sculk_affinity"
+		}
+	]
+}

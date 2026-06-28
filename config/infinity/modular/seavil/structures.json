@@ -1,0 +1,37 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_decoration",
+				"id": "seavil:undersea_village"
+			},
+			"weight": 1.0,
+			"key": "seavil:undersea_village"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_decoration",
+				"id": "seavil:undersea_village_skylands"
+			},
+			"weight": 1.0,
+			"key": "seavil:undersea_village_skylands"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "fluid_springs",
+				"id": "seavil:zzz_top"
+			},
+			"weight": 1.0,
+			"key": "seavil:zzz_top"
+		}
+	]
+}

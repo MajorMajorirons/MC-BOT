@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "deeperdarker:ancient_temple"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:ancient_temple"
+		}
+	]
+}

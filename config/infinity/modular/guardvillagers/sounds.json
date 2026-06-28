@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "guardvillagers:entity.guard.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "guardvillagers:entity.guard.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "guardvillagers:entity.guard.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "guardvillagers:entity.guard.no"
+		},
+		{
+			"weight": 1.0,
+			"key": "guardvillagers:entity.guard.yes"
+		}
+	]
+}

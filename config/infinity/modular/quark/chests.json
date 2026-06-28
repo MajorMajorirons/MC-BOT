@@ -1,0 +1,144 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "quark:acacia_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:acacia_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ancient_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ancient_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:azalea_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:azalea_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:bamboo_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:bamboo_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:birch_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:birch_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:blossom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:blossom_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:cherry_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:cherry_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:crimson_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:crimson_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:dark_oak_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:dark_oak_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:feeding_trough"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:jungle_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:jungle_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:mangrove_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:mangrove_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:nether_brick_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:nether_brick_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:oak_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:oak_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:prismarine_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:prismarine_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:purpur_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:purpur_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:spruce_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:spruce_trapped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:warped_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:warped_trapped_chest"
+		}
+	]
+}

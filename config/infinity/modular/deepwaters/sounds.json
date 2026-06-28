@@ -1,0 +1,92 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "deepwaters:background_orca"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:background_sea"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:background_sounds"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:background_whale"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:crab_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:electric_action"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:electric_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:electric_disarm"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:electric_discharge"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:electric_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:goat_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:goat_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:jellyfish_at_the_storm"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:mermaid_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:pirate_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:pirate_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:pirate_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:portal_sounds"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shell_action"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:vase_action"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:whale_fontain"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:whale_hurt"
+		}
+	]
+}

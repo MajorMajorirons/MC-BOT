@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "chests/upper_side_chamber"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"biomes": [
+		"nullscape:crystal_peaks"
+	],
+	"rule": {
+		"sequence": [
+			{
+				"result_state": {
+					"Name": "minecraft:blackstone"
+				},
+				"type": "minecraft:block"
+			},
+			{
+				"result_state": {
+					"Name": "minecraft:end_stone"
+				},
+				"type": "minecraft:block"
+			},
+			{
+				"result_state": {
+					"Name": "minecraft:blackstone"
+				},
+				"type": "minecraft:block"
+			},
+			{
+				"result_state": {
+					"Name": "minecraft:end_stone"
+				},
+				"type": "minecraft:block"
+			}
+		],
+		"type": "minecraft:sequence"
+	}
+}

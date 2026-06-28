@@ -1,0 +1,52 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "adchimneys:cobblestone_chimney"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:glass_chimney"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:large_brick_chimney"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:metal_chimney"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:metal_pump"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:metal_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:small_brick_chimney"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:stone_chimney"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:stone_pump"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:stone_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "adchimneys:wooden_paintbrush"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "snowrealmagic:cannot_accumulate_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "snowrealmagic:containables"
+		},
+		{
+			"weight": 1.0,
+			"key": "snowrealmagic:entity_inside"
+		},
+		{
+			"weight": 1.0,
+			"key": "snowrealmagic:not_containables"
+		},
+		{
+			"weight": 1.0,
+			"key": "snowrealmagic:offset_y"
+		},
+		{
+			"weight": 1.0,
+			"key": "snowrealmagic:snowy_setting"
+		}
+	]
+}

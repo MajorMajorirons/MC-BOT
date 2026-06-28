@@ -1,0 +1,22 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": -1,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "deepwaters:electric_pressense"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": -16711783,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "deepwaters:manowarstatic"
+		}
+	]
+}

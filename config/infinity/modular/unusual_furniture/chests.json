@@ -1,0 +1,300 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:black_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:blue_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:brown_curtains"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:copper_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cyan_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:gray_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:green_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:industrial_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:industrial_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:light_blue_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:light_gray_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:lime_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:magenta_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:orange_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:pink_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:purple_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:red_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:white_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:yellow_curtain"
+		}
+	]
+}

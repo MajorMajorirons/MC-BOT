@@ -1,0 +1,92 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "glowberry_expantion:glow_temple"
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:glow_temple"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "glowberry_expantion:glowberry_pocket_1"
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_pocket_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "glowberry_expantion:glowberry_pocket_2"
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_pocket_2"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "glowberry_expantion:glowberry_pocket_3"
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_pocket_3"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "glowberry_expantion:glowberry_ruin_1"
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_ruin_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "glowberry_expantion:glowberry_ruin_2"
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_ruin_2"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "glowberry_expantion:glowberry_ruin_3"
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_ruin_3"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "glowberry_expantion:glowberry_ruin_4"
+			},
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_ruin_4"
+		}
+	]
+}

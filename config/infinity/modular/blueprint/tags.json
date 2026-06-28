@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "blueprint:noteblock_top_instruments"
+		},
+		{
+			"weight": 1.0,
+			"key": "blueprint:wooden_beehives"
+		},
+		{
+			"weight": 1.0,
+			"key": "blueprint:wooden_bookshelves"
+		},
+		{
+			"weight": 1.0,
+			"key": "blueprint:wooden_chests"
+		},
+		{
+			"weight": 1.0,
+			"key": "blueprint:wooden_chiseled_bookshelves"
+		},
+		{
+			"weight": 1.0,
+			"key": "blueprint:wooden_ladders"
+		},
+		{
+			"weight": 1.0,
+			"key": "blueprint:wooden_trapped_chests"
+		}
+	]
+}

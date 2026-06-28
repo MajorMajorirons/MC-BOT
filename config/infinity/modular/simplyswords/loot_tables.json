@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "advancement_reward"
+			},
+			"weight": 1.0,
+			"key": "grant_book_on_first_join"
+		}
+	]
+}

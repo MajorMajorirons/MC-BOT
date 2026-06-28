@@ -1,0 +1,1536 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "thermal:apatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:apatite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:apatite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:apatite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:apple_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:aquachow"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:area_radius_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:basalz_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:basalz_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:basalz_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:beekeeper_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:beekeeper_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:beekeeper_fabric"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:beekeeper_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:beekeeper_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:beetroot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bitumen"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bitumen_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:black_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:blitz_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:blitz_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:blitz_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:blizz_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:blizz_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:blizz_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:blue_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bronze_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bronze_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bronze_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bronze_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bronze_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:bronze_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:brown_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:carrot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:charcoal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:charge_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:chiller_ball_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:chiller_ingot_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:chiller_rod_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:chiseled_rich_slag"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:chiseled_slag"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cinnabar"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cinnabar_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cinnabar_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cinnabar_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:coal_coke"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:coal_coke_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:compost"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:constantan_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:constantan_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:constantan_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:constantan_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:constantan_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:constantan_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:constantan_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:copper_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:copper_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:copper_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:copper_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:copper_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cracked_rich_slag_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cracked_slag_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:creosote_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:crude_oil_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cured_rubber"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cured_rubber_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:cyan_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deep_aquachow"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_apatite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_cinnabar_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_lead_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_nickel_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_niter_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:deepslate_tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:detonator"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_collector"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_composter"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_fisher"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_hive_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_nullifier"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_potion_diffuser"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_rock_gen"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_soil_infuser"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_tree_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_water_gen"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:device_xp_condenser"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:diamond_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:diamond_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:diving_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:diving_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:diving_fabric"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:diving_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:diving_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:drill_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_compression"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_disenchantment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_fuel_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_gourmand"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_lapidary"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_magmatic"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_numismatic"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_output_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_stirling"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:dynamo_throttle_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:earth_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:earth_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:earth_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:electrum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:electrum_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:electrum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:electrum_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:electrum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:electrum_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:electrum_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:emerald_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:emerald_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ender_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ender_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ender_pearl_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ender_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:enderium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:enderium_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:enderium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:enderium_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:enderium_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:enderium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:enderium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:enderium_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:energy_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:energy_cell_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:explosive_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:fire_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:fire_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:florb"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:fluid_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:fluid_cell_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:fluid_filter_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:fluid_tank_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:fluid_tank_creative_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:glowstone_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:glowstone_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:glowstone_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:gold_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:gold_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:gold_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:gold_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:gray_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:green_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:gunpowder_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:hazmat_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:hazmat_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:hazmat_fabric"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:hazmat_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:hazmat_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:heavy_oil_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ice_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ice_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ice_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:invar_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:invar_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:invar_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:invar_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:invar_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:invar_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:invar_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:iron_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:iron_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:iron_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:iron_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:item_filter_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:junk_net"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lapis_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lapis_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:laser_diode"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:latex_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lead_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lead_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lead_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lead_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lead_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lead_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lead_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lead_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:light_blue_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:light_gray_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:light_oil_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lightning_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lightning_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lightning_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lime_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lock"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lumium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lumium_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lumium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lumium_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lumium_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lumium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lumium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:lumium_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_bottler"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_brewer"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_catalyst_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_catalyst_creative_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_centrifuge"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_chiller"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_crucible"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_crystallizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_cycle_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_efficiency_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_efficiency_creative_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_insolator"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_null_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_output_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_pulverizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_pyrolyzer"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_refinery"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_sawmill"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_smelter"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:machine_speed_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:magenta_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:netherite_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:netherite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:netherite_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:netherite_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:netherite_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nickel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nickel_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nickel_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nickel_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nickel_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nickel_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nickel_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nickel_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:niter"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:niter_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:niter_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:niter_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nuke_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:nuke_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:obsidian_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:oil_red_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:oil_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:orange_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:phyto_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:phyto_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:phytogro"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:pink_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:polished_rich_slag"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:polished_slag"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:potato_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:potion_amplifier_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:potion_duration_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:press_coin_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:press_gear_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:press_packing_2x2_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:press_packing_3x3_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:press_unpacking_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:purple_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:quartz_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:quartz_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:raw_lead"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:raw_lead_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:raw_nickel"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:raw_nickel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:raw_silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:raw_silver_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:raw_tin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:raw_tin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:red_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:redprint"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:redstone_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:redstone_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:redstone_servo"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:redstone_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:refined_fuel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:resin_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rf_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rf_coil_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rf_coil_creative_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rf_coil_storage_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rf_coil_xfer_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rf_potato"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rich_slag"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rich_slag_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rich_slag_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rosin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rosin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rs_control_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubber"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubber_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_chest_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:rubberwood_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ruby"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ruby_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ruby_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ruby_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sap_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sapphire_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sapphire_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sapphire_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:satchel"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:saw_blade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sawdust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sawdust_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:side_config_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:signalum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:signalum_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:signalum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:signalum_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:signalum_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:signalum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:signalum_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:signalum_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:silver_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:silver_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:silver_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:silver_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:silver_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:silver_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:silver_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:slag"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:slag_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:slag_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:slime_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:slime_tnt"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:slot_seal"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:stripped_rubberwood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:stripped_rubberwood_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sugar_cane_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sulfur"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sulfur_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sulfur_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:syrup_bottle"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:syrup_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tar"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tar_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tin_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tin_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tin_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tin_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tin_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tin_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tinker_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:tree_oil_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:upgrade_augment_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:upgrade_augment_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:upgrade_augment_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:white_rockwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:wrench"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:xp_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:xp_storage_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:yellow_rockwool"
+		}
+	]
+}

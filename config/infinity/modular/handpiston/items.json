@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "handpiston:handpiston"
+		},
+		{
+			"weight": 1.0,
+			"key": "handpiston:handslimepiston"
+		}
+	]
+}

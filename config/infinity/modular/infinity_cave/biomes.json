@@ -1,0 +1,46 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:amethyst_caves"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:deeprock_caverns"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:frozen_caves"
+		},
+		{
+			"data": {
+				"Color": 12089650
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:limestone_grotto"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:molten_caves"
+		},
+		{
+			"data": {
+				"Color": 3866396
+			},
+			"weight": 1.0,
+			"key": "infinity_cave:sulfide_caves"
+		}
+	]
+}

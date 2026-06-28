@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "hamsters:hamster"
+		},
+		{
+			"weight": 1.0,
+			"key": "hamsters:hamster_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "hamsters:hamster_wheel"
+		}
+	]
+}

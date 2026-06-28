@@ -1,0 +1,640 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:acacia_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:acacia_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:acacia_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:acacia_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:acacia_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:acacia_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:acacia_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:balance_fill_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:bamboo_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:bamboo_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:bamboo_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:bamboo_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:bamboo_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:bamboo_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:bamboo_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:birch_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:birch_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:birch_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:birch_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:birch_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:birch_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:birch_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:cherry_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:cherry_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:cherry_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:cherry_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:cherry_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:cherry_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:cherry_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:compacting_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:compacting_drawers_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:compacting_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:compacting_half_drawers_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:controller_slave"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:conversion_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:copper_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:creative_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:creative_vending_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:crimson_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:crimson_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:crimson_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:crimson_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:crimson_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:crimson_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:crimson_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:dark_oak_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:dark_oak_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:dark_oak_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:dark_oak_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:dark_oak_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:dark_oak_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:dark_oak_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:detached_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:detached_drawer_full"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:diamond_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:drawer_key"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:drawer_puller"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:emerald_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:fill_level_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_compacting_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_compacting_drawers_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_compacting_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_compacting_half_drawers_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_controller_io"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framed_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:framing_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:gold_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:hopper_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:illumination_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:iron_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:jungle_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:jungle_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:jungle_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:jungle_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:jungle_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:jungle_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:jungle_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keybutton_concealment"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keybutton_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keybutton_quantify"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_personal"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_personal_cofh"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_personal_ftb"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_personal_unlock"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_priority"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_priority_n1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_priority_n2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_priority_p1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_priority_p2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_puller"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_quantify"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_shroud"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:keyring_suspend"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:magnet_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:magnet_upgrade_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:magnet_upgrade_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:mangrove_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:mangrove_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:mangrove_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:mangrove_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:mangrove_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:mangrove_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:mangrove_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:max_redstone_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:min_redstone_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:netherite_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:oak_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:oak_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:oak_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:oak_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:oak_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:oak_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:oak_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:obsidian_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:one_stack_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:personal_key"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:personal_key_cofh"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:personal_key_ftb"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:personal_key_unlock"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:portability_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:priority_key"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:priority_key_n1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:priority_key_n2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:priority_key_p1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:priority_key_p2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:quantify_key"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:redstone_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:remote_group_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:remote_group_upgrade_bound"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:remote_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:remote_upgrade_bound"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:shroud_key"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:spruce_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:spruce_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:spruce_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:spruce_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:spruce_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:spruce_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:spruce_trim"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:suspend_key"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:upgrade_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:void_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:warped_full_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:warped_full_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:warped_full_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:warped_half_drawers_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:warped_half_drawers_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:warped_half_drawers_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "storagedrawers:warped_trim"
+		}
+	]
+}

@@ -1,0 +1,1040 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:acacia_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:acacia_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:acacia_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:ancient_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:andesite_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:andesite_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:azalea_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:bamboo_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:bamboo_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:big_console_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:big_console_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:birch_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:birch_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:birch_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:black_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:black_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:black_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:black_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:blossom_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:blue_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:blue_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:blue_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:blue_nether_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:blue_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:brown_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:brown_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:brown_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:brown_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:calcite_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:calcite_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cherry_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cherry_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cherry_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_nether_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_andesite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_blackstone_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_calcite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_diorite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_dripstone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_granite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_jasper_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_limestone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_shale_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_polished_tuff_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:chiseled_stone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:console_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:console_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cracked_deepslate_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cracked_deepslate_tile_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cracked_nether_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cracked_polished_blackstone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cracked_stone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:crimson_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:crimson_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:crimson_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_andesite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_asurine_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_calcite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_crimsite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_deepslate_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_diorite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_dripstone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_granite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_limestone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_ochrum_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_scorchia_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_scoria_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_tuff_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cut_veridium_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cyan_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cyan_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cyan_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:cyan_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:dark_oak_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:dark_oak_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:dark_oak_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:dark_prismarine_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:dark_prismarine_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:dark_prismarine_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:deepslate_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:deepslate_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:deepslate_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:deepslate_tile_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:diamond_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:diamond_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:diorite_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:diorite_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:doorbell"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:doorbell_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:dripstone_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:dripstone_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:emerald_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:emerald_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:end_stone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:exposed_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:exposed_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:fancy_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:fancy_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:gold_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:gold_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:granite_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:granite_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:gravel_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:gravel_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:gray_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:gray_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:gray_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:gray_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:green_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:green_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:green_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:green_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:hoglin_mount_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:iron_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:iron_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:jungle_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:jungle_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:jungle_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lamp_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lamp_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lantern_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lantern_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:large_console_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:large_console_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:letter_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:letter_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:light_blue_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:light_blue_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:light_blue_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:light_blue_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:light_gray_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:light_gray_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:light_gray_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:light_gray_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lime_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lime_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lime_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lime_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:magenta_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:magenta_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:magenta_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:magenta_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:mangrove_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:mangrove_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:mangrove_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:mossy_stone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:mud_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:nether_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:oak_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:oak_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:orange_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:orange_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:orange_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:orange_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:oxidized_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:oxidized_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:permafrost_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:pink_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:pink_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:pink_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:pink_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_andesite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_blackstone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_blackstone_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_calcite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_diorite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_dripstone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_granite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_jasper_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_limestone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_shale_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:polished_tuff_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:prismarine_brick_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:prismarine_brick_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:prismarine_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:prismarine_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:propelplant_torch_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:propelplant_torch_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:purple_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:purple_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:purple_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:purple_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:purpur_block_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:quartz_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:red_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:red_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:red_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:red_nether_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:red_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:red_sand_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:red_sand_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:redstone_torch_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:redstone_torch_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:rose_quartz_tile_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sand_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sand_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_andesite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_asurine_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_calcite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_console_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_console_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_crimsite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_deepslate_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_diorite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_dripstone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_granite_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_limestone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_ochrum_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_rose_quartz_tile_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_scorchia_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_scoria_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_tuff_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:small_veridium_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:soul_lantern_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:soul_lantern_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:soul_torch_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:soul_torch_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:spruce_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:spruce_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:spruce_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sticky_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sticky_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sticky_exposed_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sticky_exposed_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sticky_oxidized_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sticky_oxidized_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sticky_weathered_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:sticky_weathered_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:stone_brick_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:stone_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:torch_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:torch_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:tuff_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:tuff_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:warped_bookshelf_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:warped_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:warped_plank_secret_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:waxed_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:waxed_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:waxed_exposed_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:waxed_exposed_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:waxed_oxidized_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:waxed_oxidized_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:waxed_weathered_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:waxed_weathered_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:weathered_copper_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:weathered_copper_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:white_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:white_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:white_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:white_safe_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:yellow_concrete_powder_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:yellow_concrete_powder_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:yellow_emergency_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:yellow_safe_emergency_button"
+		}
+	]
+}

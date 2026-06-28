@@ -1,0 +1,780 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:ap_autocannon_round"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:ap_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:ap_shot"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:autocannon_ammo_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:autocannon_barrel_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:autocannon_breech_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:autocannon_cartridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:autocannon_cartridge_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:autocannon_recoil_spring_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bag_of_grapeshot"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:basin_foundry_lid"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:big_cartridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:big_cartridge_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:block_armor_inspection_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_autocannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_autocannon_breech_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_cannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_cannon_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_quickfiring_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:bronze_sliding_breechblock"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:built_up_nethersteel_cannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:built_up_nethersteel_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:built_up_steel_cannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:built_up_steel_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_builder"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_carriage"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_crafting_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_drill"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_end_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_loader"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_mount_extension"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cannon_welder"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_autocannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_autocannon_breech_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_cannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_cannon_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_quickfiring_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:cast_iron_sliding_breechblock"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:casting_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:congealed_nitro"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:creative_autocannon_ammo_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:delayed_impact_fuze"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:delayed_inertia_fuze"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:drop_mortar_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:empty_autocannon_cartridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:empty_machine_gun_round"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:empty_powder_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:filled_autocannon_cartridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:fixed_cannon_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:flak_autocannon_round"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:fluid_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:gas_mask"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:guncotton"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:gunpowder_pinch"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:hardened_nitro"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:he_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:impact_fuze"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_bronze_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_bronze_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_bronze_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_cast_iron_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_cast_iron_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_nethersteel_screw_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_steel_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_steel_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_steel_screw_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:incomplete_steel_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:inertia_fuze"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:large_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:large_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:large_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:log_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:log_cannon_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:machine_gun_round"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:medium_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:medium_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:medium_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:molten_bronze_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:molten_cast_iron_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:molten_nethersteel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:molten_steel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:mortar_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:mortar_stone_projectile"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:nethersteel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:nethersteel_cannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:nethersteel_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:nethersteel_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:nethersteel_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:nethersteel_screw_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:nethersteel_screw_lock"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:nitropowder"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:packed_guncotton"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:packed_gunpowder"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:pair_of_cannon_wheels"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:partial_bronze_autocannon_breech_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:partial_cast_iron_autocannon_breech_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:partial_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:partial_steel_autocannon_breech_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:partially_assembled_machine_gun_round"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:partially_filled_autocannon_cartridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:partially_formed_autocannon_cartridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:partially_formed_big_cartridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:powder_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:proximity_fuze"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:quickfiring_mechanism"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:ram_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:ram_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:screw_breech_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:shot_balls"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:shrapnel_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:sliding_breech_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:small_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:small_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:small_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:smoke_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:solid_shot"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:spring_wire"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_autocannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_autocannon_breech_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_cannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_quickfiring_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_screw_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_screw_lock"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:steel_sliding_breechblock"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:thick_nethersteel_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:thick_steel_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:timed_fuze"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:tracer_tip"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:traffic_cone"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_bronze_autocannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_bronze_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_bronze_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_bronze_cannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_bronze_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_bronze_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_cast_iron_autocannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_cast_iron_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_cast_iron_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_cast_iron_cannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_cast_iron_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_cast_iron_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_large_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_large_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_medium_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_medium_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_nethersteel_screw_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_small_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_small_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_steel_autocannon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_steel_autocannon_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_steel_autocannon_recoil_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_steel_screw_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_steel_sliding_breech"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_very_large_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_very_large_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_very_small_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:unbored_very_small_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:very_large_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:very_large_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:very_large_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:very_small_cast_mould"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:very_small_nethersteel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:very_small_steel_cannon_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:wired_fuze"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:worm"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:worm_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:wrought_iron_cannon_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:wrought_iron_cannon_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:wrought_iron_drop_mortar_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:yaw_controller"
+		}
+	]
+}

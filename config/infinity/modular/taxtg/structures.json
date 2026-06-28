@@ -1,0 +1,224 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_birch_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_birch_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_birch_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_birch_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_cherryblossom_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_cherryblossom_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_cherryblossom_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_cherryblossom_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_jungle_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_jungle_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_jungle_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_jungle_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_oak_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_oak_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_oak_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_oak_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_palm_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_palm_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_palm_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_palm_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_pine_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_pine_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_pine_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_pine_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_snowy_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_snowy_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_snowy_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_snowy_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_spruce_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_spruce_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_spruce_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_spruce_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_swamp_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_swamp_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_swamp_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_swamp_tree_1"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_yellow_tree"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_yellow_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "taxtg:giant_yellow_tree_1"
+			},
+			"weight": 1.0,
+			"key": "taxtg:giant_yellow_tree_1"
+		}
+	]
+}

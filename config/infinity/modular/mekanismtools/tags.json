@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mekanismtools:needs_bronze_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismtools:needs_lapis_lazuli_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismtools:needs_osmium_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismtools:needs_refined_glowstone_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismtools:needs_refined_obsidian_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismtools:needs_steel_tool"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:bookshelf_secret_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:concrete_powder_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:concrete_powder_large_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:console_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:copper_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:copper_large_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:emergency_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:lantern_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:large_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:safe_emergency_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:secret_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:stone_large_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:torch_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:wooden_large_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinitybuttons:wooden_secret_buttons"
+		}
+	]
+}

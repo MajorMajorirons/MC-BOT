@@ -1,0 +1,260 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.awning.bounce"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.bellows.blow"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.bellows.retract"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.blackboard.draw"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.bubble_block.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.bubble_block.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.cannon.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.cannon.ignite"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.clock.tick_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.clock.tick_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.crank"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.faucet.turn"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.globe.spin"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.gunpowder.ignite"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.jar.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.jar.cookie"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.jar.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.note_block.imitate.enderman"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.present.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.present.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.present.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.present.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.present.pack"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.present.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.present.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.rope.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.rope.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.rope.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.rope.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.rope.slide"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.rope.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.rotate"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.sack.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.sack.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.sack.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.slidy_block.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.slidy_block.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.slidy_block.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.slidy_block.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.slidy_block.slide"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.slidy_block.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:block.turntable.cat"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:entity.brick.throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:entity.cannonball.bounce"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:entity.cannonball.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:entity.slimeball.bounce"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:entity.slimeball.throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:entity.slimed"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.aeugh"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.bomb"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.bubble_blower"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.confetti_popper"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.lunch_basket.close"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.lunch_basket.insert"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.lunch_basket.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.slingshot.charge_0"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.slingshot.charge_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.slingshot.charge_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.slingshot.charge_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.slingshot.release"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.soap.wash"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.wrench.fail"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.wrench.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:item.wrench.rotate"
+		}
+	]
+}

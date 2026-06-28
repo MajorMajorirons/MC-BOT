@@ -1,0 +1,44 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_birch_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_cherryblossom_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_jungle_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_oak_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_palm_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_pine_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_snowy_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_spruce_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_swamp_tree"
+		},
+		{
+			"weight": 1.0,
+			"key": "taxtg:generator_yellow_tree"
+		}
+	]
+}

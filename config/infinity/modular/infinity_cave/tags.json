@@ -1,0 +1,36 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "infinity_cave:all_but_air"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity_cave:all_but_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity_cave:all_but_lava"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity_cave:all_but_unbreakable"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity_cave:base_stone_overworld"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity_cave:cheese"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity_cave:dangerous"
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity_cave:pillar_go_through"
+		}
+	]
+}

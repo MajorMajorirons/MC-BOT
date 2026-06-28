@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Color": -3355444
+			},
+			"weight": 1.0,
+			"key": "deepwaters:dark_shore"
+		},
+		{
+			"data": {
+				"Color": 10387789
+			},
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_cave"
+		},
+		{
+			"data": {
+				"Color": -3355444
+			},
+			"weight": 1.0,
+			"key": "deepwaters:seismic_bay"
+		},
+		{
+			"data": {
+				"Color": -16724890
+			},
+			"weight": 1.0,
+			"key": "deepwaters:undersea"
+		}
+	]
+}

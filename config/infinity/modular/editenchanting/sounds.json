@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "editenchanting:block.disenchantment_table.page_turn"
+		},
+		{
+			"weight": 1.0,
+			"key": "editenchanting:block.disenchantment_table.use"
+		}
+	]
+}

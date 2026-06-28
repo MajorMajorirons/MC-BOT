@@ -1,0 +1,132 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:allium_bush"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:half_seeded_peeled_melon"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:melon_juice"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_apple_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_baked_potato_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_beetroot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_cabbage_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_carrot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_cocoa_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_ginger_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_golden_apple_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_kiwi_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_nether_wart_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_onion_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_poisonous_potato_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_potato_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:overweight_sliced_kiwi_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:peeled_overweight_beetroot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:peeled_overweight_carrot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:peeled_overweight_cocoa_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:peeled_overweight_ginger_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:peeled_overweight_kiwi_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:peeled_overweight_onion_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:peeled_overweight_potato_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:seeded_peeled_melon"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:seedless_peeled_melon"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:straw_hat"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:vegetable_compost"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:vegetable_peels"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:waxed_half_seeded_peeled_melon"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:waxed_seeded_peeled_melon"
+		},
+		{
+			"weight": 1.0,
+			"key": "overweight_farming:waxed_seedless_peeled_melon"
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:fish_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat_acacia"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat_birch"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat_cherry"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat_dark_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat_jungle"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat_mangrove"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:large_boat_spruce"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat_acacia"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat_birch"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat_cherry"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat_dark_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat_jungle"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat_mangrove"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "bulletsboats:square_boat_spruce"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "portableportals:portable_end_portal_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "portableportals:portable_nether_portal_item"
+		}
+	]
+}

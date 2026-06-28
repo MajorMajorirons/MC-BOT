@@ -1,0 +1,64 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:bartending_table_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:bartending_table_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:drinking_beer"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:golden_call_bell_tinkle"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:iron_call_bell_tinkle"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:lekas_call_bell_tinkle"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:night_howl0"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:night_howl1"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:night_howl2"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:night_howl3"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:pouring"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:pouring_christmas"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:tradebox_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:tradebox_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "drinkbeer:unpacking"
+		}
+	]
+}

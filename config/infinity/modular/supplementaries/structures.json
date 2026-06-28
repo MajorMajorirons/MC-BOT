@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "strongholds",
+				"id": "supplementaries:way_sign"
+			},
+			"weight": 1.0,
+			"key": "supplementaries:way_sign"
+		}
+	]
+}

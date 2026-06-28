@@ -1,0 +1,171 @@
+# This is the main configuration file for Mohist.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Mohist wiki at
+# https://wiki.mohistmc.com/
+#
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the Discord or drop by our forums and leave a post.
+#
+# Discord: https://discord.gg/mohistmc
+# Forums: https://mohistmc.com/
+# Forums (CN): https://mohistmc.cn/
+
+anvilfix:
+  maximumrepaircost: 40
+  enchantment_fix: false
+  max_enchantment_level: 32767
+player_modlist_blacklist:
+  enable: false
+  list: []
+server_modlist_whitelist:
+  enable: false
+  list: '[betterdungeons, supermartijn642configlib, horseman, underground_villages,
+    botarium, playeranimator, hamsters, fabric_rendering_fluids_v1, subtle_effects,
+    fabric_models_v0, bettercaves, not_interested, forgeendertech, aileron, fabric_convention_tags_v1,
+    modernfix, fabric_command_api_v1, plushie_buddies, fabric_block_view_api_v2, fabric_command_api_v2,
+    yungsapi, chestedcompanions, guardvillagers, forgivingvoid, createdieselgenerators,
+    create_new_age, balm, snowrealmagic, fabric_screen_api_v1, betterfortresses, cloth_config,
+    ctov, refinedstorage, corpse, maxenchantx, bulletsboats, fabric_game_rule_api_v1,
+    pick_up_tnt, gml, supermartijn642corelib, resourcefulconfig, mr_tidal_towns, villagersfollowemeraldblocks,
+    curios, commongroovylibrary, littlejoys, overweight_farming, gottschcore, fabric_entity_events_v1,
+    punji, flib, betterendisland, fabric_rendering_data_attachment_v1, adchimneys,
+    bettermineshafts, fabric_client_tags_api_v1, fabric_dimensions_v1, elytraslot,
+    kiwi, editenchanting, connectiblechains, fabric_model_loading_api_v1, jei, lithostitched,
+    wood_enjoyer, fabric_screen_handler_api_v1, mekanism, caelus, fabric_rendering_v1,
+    fabric_renderer_indigo, naturescompass, botanypots, oelib, contact, midnightlib,
+    corpsecurioscompat, fusion, fabric_particles_v1, puzzlesaccessapi, forge, mapdistancefix,
+    chalk, minecraft, villagergolemhealer, createtaczauto, cofh_core, thermal, thermal_foundation,
+    geode_plus, terrablender, biomesoplenty, fabric_api_base, immersiveengineering,
+    createoreexcavation, overweight_animals, playerladder, spectrelib, fabric_block_api_v1,
+    statuseffectbars, fabric_resource_conditions_api_v1, guccivuitton, e4mc_minecraft,
+    kotlinforforge, piercingpaxels, flywheel, ponder, mantle, fabric_item_group_api_v1,
+    polymorph, zeta, fabric_registry_sync_v0, appleskin, fabric_recipe_api_v1, fabric_object_builder_api_v1,
+    puzzleslib, fabric_sound_api_v1, deepwaters, fabric_message_api_v1, endermail,
+    ad_astra, treechop, kuma_api, fabric_renderer_api_v1, betterwitchhuts, geckolib,
+    crittersandcompanions, palladiumcore, vc_gliders, fabric_item_api_v1, infinity_cave,
+    betteroceanmonuments, immersive_aircraft, sophisticatedcore, ritchiesprojectilelib,
+    citadel, alexsmobs, fabric_data_attachment_api_v1, bookshelf, sophisticatedbackpacks,
+    betterbeaconplacement, railways, mekanismgenerators, carryon, baguettelib, dragonmounts,
+    fzzy_config, fabric_api, handpiston, fabric_content_registries_v0, twilightforest,
+    diagonalwalls, diagonalblocks, farmersdelight, fabric_api_lookup_api_v1, dogslie,
+    diagonalwindows, lionfishapi, cataclysm, patchouli, simplebedrockmodel, riytt,
+    collective, diamethysts, thermal_expansion, bridge_maker, ftbultimine, betterstrongholds,
+    ebb, resourcefullib, mekanismtools, fennecfox, inventoryprofilesnext, deeperdarker,
+    architectury, deathsorter, ftblibrary, farm_and_charm, findme, immersivelanterns,
+    fabric_loot_api_v2, fabric_networking_api_v1, infinity, framework, fabric_lifecycle_events_v1,
+    fabric_key_binding_api_v1, esl, fabric_transfer_api_v1, rhino, kubejs, cucumber,
+    villagerdrops, easymagic, sittingplus, tacz, fabric_resource_loader_v0, ropebridge,
+    journeymap, fabric_mining_level_api_v1, nimble, betterdeserttemples, homesteads,
+    netherdepthsupgrade, ichunutil, blueprint, pet_cemetery, txnilib, unusual_furniture,
+    cutthrough, fabric_transitive_access_wideners_v1, mysticalagriculture, tconstruct,
+    simplyswords, libipn, moonlight, labels, wooledboots, fabric_blockrenderlayer_v1,
+    mixinsquared, taxtg, nethersdelight, portableportals, quark, storagedrawers, nullscape,
+    diagonalfences, create_radar, create, supplementaries, createbigcannons, alloyed,
+    infinitybuttons, jade, fabric_biome_api_v1, glowberry_expantion, scaffoldingpower,
+    bettertridents, ferritecore, yet_another_config_lib_v3, taxdv, charmofundying,
+    kaleidoscope_cookery, fabric_data_generation_api_v1, fabric_events_interaction_v0,
+    drinkbeer, createaddition]'
+custom:
+  max-bees-in-hive: 3
+  no_villager: false
+  entity_tp_end: true
+  entity_tp_nether: true
+  raid_no_emerald: false
+  lava_speed:
+    normal: 30
+    nether: 10
+enchantment-table-book-animation-tick: false
+networkmanager:
+  debug: false
+  intercept: []
+threadpriority:
+  server_thread: 8
+entity:
+  clear:
+    enable: false
+    time: 1800
+    countdown:
+      msg: '[Server] §cItems will be cleared after %seconds% seconds！'
+    item:
+      enable: false
+      whitelist: []
+      msg: '[Server] Cleaned up %size% drop item'
+    noitem:
+      enable: false
+      whitelist: []
+      msg: '[Server] Cleaned up %size% monster'
+ban:
+  item:
+    enable: false
+    list: []
+  entity:
+    enable: false
+    list: []
+  enchantment:
+    enable: false
+    list: []
+motd:
+  enable: false
+  firstline: <RAINBOW1>A Minecraft Server</RAINBOW>
+  secondline: ''
+settings:
+  messages:
+    ping-command-output: §2%s's ping is %sms
+events:
+  fire_tick: false
+  explosion: false
+forge:
+  bukkitpermissionshandler: true
+worldmanage: true
+velocity:
+  enabled: false
+  onlineMode: false
+  secret: ''
+recipe:
+  warn: false
+tpa:
+  enable: false
+  permissions: true
+back:
+  enable: false
+  permissions: true
+permissions:
+  debug:
+    console: false
+    player: false
+world:
+  async_save: false
+message:
+  require_forge: This server has mods that require Forge to be installed on the client.
+    Contact your server admin for more details.
+server_mod_name: mohist
+deepseek:
+  enable: false
+  apikey: mohist
+  model: deepseek-chat
+  system: 你的名字叫小小墨，年龄18岁，是个可爱的女孩子!
+  command: ai
+  chatfromat: <小小墨> %s
+mohist:
+  show_logo: true
+  check_update: true
+  watchdog_spigot: true
+  watchdog_mohist: false
+  lang: ja_JP
+  libraries:
+    check: true
+  installation-finished: false
+config-version: 1
+keepinventory:
+  global:
+    enable: false
+    inventory: true
+    exp: true
+  permission:
+    enable: false
+    inventory: mohist.keepinventory.inventory
+    exp: mohist.keepinventory.exp
+  world:
+    inventory: false
+    exp: false

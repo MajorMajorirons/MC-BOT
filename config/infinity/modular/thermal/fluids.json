@@ -1,0 +1,25 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "thermal:crude_oil"
+			},
+			"weight": 1.0,
+			"key": "thermal:crude_oil_fluid"
+		},
+		{
+			"data": {
+				"fluidName": "thermal:ender"
+			},
+			"weight": 1.0,
+			"key": "thermal:ender_fluid"
+		},
+		{
+			"data": {
+				"fluidName": "thermal:redstone"
+			},
+			"weight": 1.0,
+			"key": "thermal:redstone_fluid"
+		}
+	]
+}

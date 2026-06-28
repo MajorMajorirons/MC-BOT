@@ -1,0 +1,856 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:acacia_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:bamboo_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:big_cattail"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:birch_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:black_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:black_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:blackboard_menu"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:blackstone_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:blue_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:blue_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:brown_curtains"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:brown_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_acacia"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_bamboo"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_birch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_cherry"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_crimson"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_dark_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_jungle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_mangrove"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_spruce"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:carved_warped"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cat_plush"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cherry_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:copper_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cow_plush"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:crimson_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cyan_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:cyan_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:danger_barrier"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:dark_oak_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:decorated_iron_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:decorative_toolbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:discord"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:emergency_fire_hydrant"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:fire_hydrant"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:floor_lamp_decoration_bat"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:floor_lamp_decoration_villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:fudge_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:gray_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:gray_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:greek_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:green_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:green_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:hanging_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:hit_box_guides"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:huge_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:industrial_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:industrial_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:iron_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:jungle_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:large_hanging_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:light_blue_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:light_blue_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:light_gray_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:light_gray_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:lime_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:lime_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:magenta_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:magenta_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mangrove_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:manhole"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mushroom_patch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:mystery_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:oak_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:orange_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:orange_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:pebble_bag"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:pig_plush"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:pink_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:pink_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:poster"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:purple_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:purple_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:red_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:red_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:road_works_barrier"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:scum_plant"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:scum_plant_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:small_cattail"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:small_lily_pads"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:sphere_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_floor_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:spruce_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:stone_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:tall_clay_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:trash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:tropical_plant"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:vintage_flower_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:wall_mushroom_patch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:wall_tropical_plant"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warning_barrier"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_celling_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_open_riser_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:warped_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:water_plants"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:white_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:white_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:wooden_barrier"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:wooden_clock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:wooden_hanging_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:yellow_curtain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unusual_furniture:yellow_sofa"
+		}
+	]
+}

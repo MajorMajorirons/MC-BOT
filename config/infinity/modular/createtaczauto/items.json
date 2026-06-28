@@ -1,0 +1,140 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_1045x103"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_12g"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_308"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_30_06"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_338_lapua"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_339x57fmj"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_339x57x"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_357_magnum"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_40mm"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_410x57ap"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_45_70"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_45acp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_46x30"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_50_ae"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_50_bmg"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_556x_45mm"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_57x28"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_58x42"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_68x51fury"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_762x25"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_762x54"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_762x_39mm"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_9mm"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_rpg"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_x16he"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_x16he1"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:casing_x16sg"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:hardened_brass_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:hardened_iron_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:heated_brass_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:heated_iron_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:large_gunpowder_pile"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:tiny_gunpowder_pile"
+		},
+		{
+			"weight": 1.0,
+			"key": "createtaczauto:unprocessed_brass_sheet"
+		}
+	]
+}

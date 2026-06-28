@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ropebridge:load"
+		},
+		{
+			"weight": 1.0,
+			"key": "ropebridge:swoosh"
+		}
+	]
+}

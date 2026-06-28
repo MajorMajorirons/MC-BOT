@@ -1,0 +1,81 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:blazefish"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:bonefish"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:eyeball_fish"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:fortressgrouper"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:glowdine"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:lava_pufferfish"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:magmacubefish"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:obsidianfish"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:searing_cod"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:soulsucker"
+		},
+		{
+			"data": {
+				"Category": "water_ambient"
+			},
+			"weight": 1.0,
+			"key": "netherdepthsupgrade:wither_bonefish"
+		}
+	]
+}

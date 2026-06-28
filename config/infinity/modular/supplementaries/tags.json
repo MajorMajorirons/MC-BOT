@@ -1,0 +1,188 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "supplementaries:awnings"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:beams"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:bellows_tickable"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:bomb_breakable"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:bouncy_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:brick_breakable"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:brick_breakable_recursive"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:candle_holders"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:cannon_tnts"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:dampens_vibrations"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:fast_fall_climbable"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:faucet_cant_interact"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:faucet_connection_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:faucet_connection_whitelist"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:flags"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:flint_metals"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:frame_block_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:gravel_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:hang_from_ropes"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:ignores_planter_offset"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:lightable_by_gunpowder"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:lights_gunpowder"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:map_tint_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:map_tint_foliage_color"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:map_tint_generic"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:map_tint_grass_color"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:map_tint_water_color"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:non_cleanable"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:palisades"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:planters"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:posts"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:presents"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:prevents_offset_above"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:rope_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:sacks"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:sconces"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:trapped_presents"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:turn_table_cant_shuffle"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:un_moveable_by_ropes"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:un_rotatable"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:vine_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:wall_lanterns_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:wall_lanterns_whitelist"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:walls"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:water_holder"
+		},
+		{
+			"weight": 1.0,
+			"key": "supplementaries:wattle_and_daub"
+		}
+	]
+}

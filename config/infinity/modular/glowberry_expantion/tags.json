@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:cake"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowing_stones"
+		}
+	]
+}

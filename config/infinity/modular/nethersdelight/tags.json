@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "nethersdelight:fungus_colony_growable_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "nethersdelight:soul_compost_activators"
+		},
+		{
+			"weight": 1.0,
+			"key": "nethersdelight:soul_compost_flames"
+		}
+	]
+}

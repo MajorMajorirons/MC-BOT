@@ -1,0 +1,44 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:dripping_blood"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:falling_blood"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:glowworm"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:jacaranda_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:landing_blood"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:maple_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:orange_autumn_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:pus"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:snowblossom_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "biomesoplenty:yellow_autumn_leaves"
+		}
+	]
+}

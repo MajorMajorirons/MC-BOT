@@ -1,0 +1,52 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:copper_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:nether_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:paraglider_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:paraglider_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:paraglider_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:paraglider_netherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:paraglider_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:reinforced_paper"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:reinforced_paper_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:reinforced_paper_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:reinforced_paper_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "vc_gliders:reinforced_paper_netherite"
+		}
+	]
+}

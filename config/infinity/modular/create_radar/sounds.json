@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "create_radar:rwr.in_range"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:rwr.lock"
+		}
+	]
+}

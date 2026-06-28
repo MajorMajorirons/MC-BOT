@@ -1,0 +1,44 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "deepwaters:barrel_closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:barrel_palm"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:barrel_shroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:barrel_shroom_closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_vase"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_vase_closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:deepslate_vase_gilded"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:geyser"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shellcounter"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:shellcounterclosed"
+		}
+	]
+}

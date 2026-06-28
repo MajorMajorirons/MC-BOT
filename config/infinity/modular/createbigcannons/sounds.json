@@ -1,0 +1,88 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:autocannon_round_flyby"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:fire_autocannon"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:fire_big_cannon"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:fire_drop_mortar"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:fire_machine_gun"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:flak_round_explosion"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:fluid_shell_explosion"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:hot_projectile_splash"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:lava_fluid_release"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:machine_gun_round_flyby"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:mortar_stone_explode"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:place_autocannon_ammo_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:potion_fluid_release"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:projectile_impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:projectile_splash"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:shell_explosion"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:shell_flying"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:shrapnel_shell_explosion"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:smoke_shell_detonate"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:water_fluid_release"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:wood_splinters"
+		}
+	]
+}

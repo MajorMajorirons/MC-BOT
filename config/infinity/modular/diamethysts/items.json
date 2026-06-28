@@ -1,0 +1,1012 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "diamethysts:bone_meal_brew"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:bottled_obsidian_tears"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:budding_brew"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:budding_diamethyst_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:chain_link_maker"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:copper_chain_links"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:copper_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_charged_copper_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_chain"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_chain_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_chain_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_chain_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_chain_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_chain_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_hilt"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_copper_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_hilt"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_mesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_diamond_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_elixir"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_hilt"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_mesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_emerald_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_fishing_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_fishing_spool"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_glass_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_chain"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_chain_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_chain_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_chain_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_chain_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_chain_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_hilt"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_gold_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_chain"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_chain_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_chain_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_chain_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_chain_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_chain_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_hilt"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_iron_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_hilt"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_mesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_lapis_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_netherite_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_hilt"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_scales"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_prismarine_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_battle_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_bow_lower_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_bow_upper_section"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_hilt"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_scales"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_scimitar"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_quartz_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:diamethyst_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:gold_chain_links"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:iron_chain_links"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:large_diamethyst_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:leather_bound_stick"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:medium_diamethyst_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:shield_strap"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:small_diamethyst_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:strung_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:strung_emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:strung_lapis"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:totem_of_clear_skies"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:totem_of_rejuvenation"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:totem_of_renew"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:totem_of_restoration"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:totem_of_storm_master"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:totem_of_thunder"
+		},
+		{
+			"weight": 1.0,
+			"key": "diamethysts:twice_brewed_budding_brew"
+		}
+	]
+}

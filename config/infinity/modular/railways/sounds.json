@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "railways:conductor_whistle"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:handcar_cogs"
+		}
+	]
+}

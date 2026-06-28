@@ -1,0 +1,120 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:clam"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:diamond_dragonfly_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:dragonfly_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:dragonfly_wing"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:dumbo_octopus_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:dumbo_octopus_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:ferret_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:gold_dragonfly_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:grappling_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:iron_dragonfly_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:jumping_spider_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:koi_fish"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:koi_fish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:koi_fish_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:leaf_insect_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:otter_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:pearl"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:pearl_necklace_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:pearl_necklace_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:pearl_necklace_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:red_panda_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:sea_bunny_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:sea_bunny_slime_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:sea_bunny_slime_bottle"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:sea_bunny_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:shima_enaga_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:silk"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:silk_cocoon"
+		},
+		{
+			"weight": 1.0,
+			"key": "crittersandcompanions:silk_lead"
+		}
+	]
+}

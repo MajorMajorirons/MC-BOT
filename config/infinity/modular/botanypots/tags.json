@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "botanypots:all_botany_pots"
+		},
+		{
+			"weight": 1.0,
+			"key": "botanypots:basic_botany_pots"
+		},
+		{
+			"weight": 1.0,
+			"key": "botanypots:hopper_botany_pots"
+		}
+	]
+}

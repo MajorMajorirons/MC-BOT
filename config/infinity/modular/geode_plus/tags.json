@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "geode_plus:can_large_echo_crystal_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "geode_plus:can_large_prismarine_crystal_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "geode_plus:can_large_wrappist_crystal_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "geode_plus:geode_invalid_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "geode_plus:geodes_cannot_replace"
+		},
+		{
+			"weight": 1.0,
+			"key": "geode_plus:wrappist_pedestal_cannot_place_on"
+		}
+	]
+}

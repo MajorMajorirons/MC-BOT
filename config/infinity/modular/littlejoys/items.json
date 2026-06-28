@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "littlejoys:dig_spot"
+		},
+		{
+			"weight": 1.0,
+			"key": "littlejoys:fishing_spot"
+		}
+	]
+}

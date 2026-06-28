@@ -1,0 +1,328 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_bell"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_encased_cogwheel"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_encased_large_cogwheel"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_encased_shaft"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:bronze_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_bronze_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_bronze_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_exposed_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_exposed_bronze_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_exposed_bronze_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_oxidized_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_oxidized_bronze_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_oxidized_bronze_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_weathered_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_weathered_bronze_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:cut_weathered_bronze_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:exposed_bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:exposed_bronze_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:incomplete_steel_upgrade_smithing_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:locked_steel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:oxidized_bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:oxidized_bronze_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_bars"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_encased_cogwheel"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_encased_large_cogwheel"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_encased_shaft"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_mesh_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_scaffolding"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_sheet_metal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_sheet_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_sheet_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:steel_upgrade_smithing_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_bronze_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_bronze_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_bronze_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_exposed_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_exposed_bronze_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_exposed_bronze_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_oxidized_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_oxidized_bronze_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_oxidized_bronze_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_weathered_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_weathered_bronze_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_cut_weathered_bronze_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_exposed_bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_exposed_bronze_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_oxidized_bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_oxidized_bronze_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_weathered_bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:waxed_weathered_bronze_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:weathered_bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alloyed:weathered_bronze_pillar"
+		}
+	]
+}

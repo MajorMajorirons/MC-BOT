@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "fennecfox:entity.fennecfox.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "fennecfox:entity.fennecfox.idle"
+		}
+	]
+}

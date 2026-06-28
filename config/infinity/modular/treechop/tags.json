@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "treechop:choppables"
+		},
+		{
+			"weight": 1.0,
+			"key": "treechop:chopped_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "treechop:leaves_like"
+		}
+	]
+}

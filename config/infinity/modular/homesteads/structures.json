@@ -1,0 +1,70 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "homesteads:flower_home_steads"
+			},
+			"weight": 1.0,
+			"key": "homesteads:flower_home_steads"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "homesteads:forest_home_steads"
+			},
+			"weight": 1.0,
+			"key": "homesteads:forest_home_steads"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "homesteads:prospector_badlands_camp"
+			},
+			"weight": 1.0,
+			"key": "homesteads:prospector_badlands_camp"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "homesteads:prospector_cave_camp"
+			},
+			"weight": 1.0,
+			"key": "homesteads:prospector_cave_camp"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "homesteads:swamp_home_steads"
+			},
+			"weight": 1.0,
+			"key": "homesteads:swamp_home_steads"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "homesteads:taiga_home_steads"
+			},
+			"weight": 1.0,
+			"key": "homesteads:taiga_home_steads"
+		}
+	]
+}

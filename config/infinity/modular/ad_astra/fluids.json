@@ -1,0 +1,39 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "ad_astra:cryo_fuel"
+			},
+			"weight": 1.0,
+			"key": "ad_astra:cryo_fuel"
+		},
+		{
+			"data": {
+				"fluidName": "ad_astra:fuel"
+			},
+			"weight": 1.0,
+			"key": "ad_astra:fuel"
+		},
+		{
+			"data": {
+				"fluidName": "ad_astra:hydrogen"
+			},
+			"weight": 1.0,
+			"key": "ad_astra:hydrogen"
+		},
+		{
+			"data": {
+				"fluidName": "ad_astra:oil"
+			},
+			"weight": 1.0,
+			"key": "ad_astra:oil"
+		},
+		{
+			"data": {
+				"fluidName": "ad_astra:oxygen"
+			},
+			"weight": 1.0,
+			"key": "ad_astra:oxygen"
+		}
+	]
+}

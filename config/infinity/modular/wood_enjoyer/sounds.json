@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:block.lunar_wood.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:block.lunar_wood.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:block.lunar_wood.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:block.lunar_wood.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:block.lunar_wood.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:misc.wood_carve"
+		},
+		{
+			"weight": 1.0,
+			"key": "wood_enjoyer:misc.wood_chop"
+		}
+	]
+}

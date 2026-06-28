@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "twilightforest:canopy_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:dark_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:keepsake_casket"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:mangrove_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:mining_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:sorting_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:time_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:transformation_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:twilight_oak_chest"
+		}
+	]
+}

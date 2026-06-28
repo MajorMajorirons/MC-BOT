@@ -1,0 +1,39 @@
+# DynamicMarket Configuration
+
+# Price engine - real-investment-level volatility settings
+price-engine:
+  # How many items need to be bought/sold to move price by ~63% (lower = more volatile)
+  # At depth=1000: buying 10 items moves price ~0.3%, 100 items ~2.8%, 500 items ~14%
+  market-depth: 1000
+
+  # Maximum price impact multiplier at full depth (0.3 = 30% max swing per large trade)
+  volatility: 0.3
+
+  # Rate of price reversion toward base per second (0.00005 ≈ 0.3%/min, like a slow-moving stock)
+  decay-rate: 0.00005
+
+  # Floor: price cannot fall below (base * min-price-multiplier)
+  min-price-multiplier: 0.05
+
+  # Ceiling: price cannot rise above (base * max-price-multiplier)
+  max-price-multiplier: 20.0
+
+  # Transaction fee taken on each trade (0.02 = 2%)
+  transaction-fee: 0.02
+
+# GUI settings
+gui:
+  title: "§6§lDynamic Market"
+
+# Sign shop header (line 0 of sign)
+signs:
+  header: "[DynMarket]"
+
+# In-game messages (use § color codes)
+messages:
+  buy-success: "§a購入完了: §f{item} §7×§e{qty} §7を §e${price} §7で購入しました。"
+  sell-success: "§a売却完了: §f{item} §7×§e{qty} §7を §e${price} §7で売却しました。"
+  not-enough-money: "§c残高不足。必要額: §e${needed}§c / 所持額: §e${balance}"
+  not-enough-items: "§c{item} が不足しています。必要数: §e{needed}§c / 所持数: §e{have}"
+  item-not-found: "§cアイテム §f{item} §cは市場に登録されていません。"
+  invalid-quantity: "§c数量は 1 以上を指定してください。"

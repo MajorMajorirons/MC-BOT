@@ -1,0 +1,74 @@
+# === 機密情報 ===
+.env
+
+# === Node.js ===
+node_modules/
+
+# === データベース（個人情報含む） ===
+*.db
+*.db-shm
+*.db-wal
+
+# === Minecraft サーバー本体 (容量大・再ダウンロード可) ===
+*.jar
+libraries/
+mods/
+tacz/
+
+# === ワールドデータ ===
+world/
+world_nether/
+world_the_end/
+
+# === ログ・クラッシュレポート ===
+logs/
+crash-reports/
+debug.log
+
+# === プレイヤーデータ ===
+usercache.json
+usernamecache.json
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+
+# === Minecraft ランタイム生成ファイル ===
+*.log
+discord_crash_id.txt
+discord_message_id.txt
+discord_warning_id.txt
+e4mc_ip.txt
+rhino.local.properties
+
+# === SubtleEffects Mod 生成ファイル ===
+subtle_effects.forge.mixins.json
+subtle_effects.mixins.json
+subtle_effects.refmap.json
+
+# === mod_data / assets (Mod が自動生成) ===
+mod_data/
+assets/
+einstein/
+modernfix/
+local/
+patchouli_books/
+journeymap/
+defaultconfigs/
+
+# === DynamicMarket プラグイン ビルド成果物・Maven ローカル環境 ===
+DynamicMarket/target/
+DynamicMarket/*.jar
+DynamicMarket/.mvn-local/
+DynamicMarket/.mvn/
+DynamicMarket/.idea/
+DynamicMarket/*.iml
+
+# === plugins の JAR (再ダウンロード可) ===
+plugins/**/*.jar
+plugins/**/data/
+
+# === OS 生成ファイル ===
+.DS_Store
+Thumbs.db
+desktop.ini

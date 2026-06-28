@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "homesteads:forager_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "homesteads:honey_bottling_station"
+		},
+		{
+			"weight": 1.0,
+			"key": "homesteads:prospectors_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "homesteads:tanning_rack"
+		},
+		{
+			"weight": 1.0,
+			"key": "homesteads:wood_work_log"
+		}
+	]
+}

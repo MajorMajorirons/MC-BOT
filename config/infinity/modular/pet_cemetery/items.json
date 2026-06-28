@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "pet_cemetery:pet_collar"
+		},
+		{
+			"weight": 1.0,
+			"key": "pet_cemetery:skeleton_cat_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "pet_cemetery:skeleton_parrot_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "pet_cemetery:skeleton_wolf_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "pet_cemetery:zombie_cat_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "pet_cemetery:zombie_parrot_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "pet_cemetery:zombie_wolf_spawn_egg"
+		}
+	]
+}

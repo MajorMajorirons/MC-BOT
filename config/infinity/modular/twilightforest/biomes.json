@@ -1,0 +1,151 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:clearing"
+		},
+		{
+			"data": {
+				"Color": 3890751
+			},
+			"weight": 1.0,
+			"key": "twilightforest:dark_forest"
+		},
+		{
+			"data": {
+				"Color": 16351774
+			},
+			"weight": 1.0,
+			"key": "twilightforest:dark_forest_center"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:dense_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:dense_mushroom_forest"
+		},
+		{
+			"data": {
+				"Color": 65535
+			},
+			"weight": 1.0,
+			"key": "twilightforest:enchanted_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:final_plateau"
+		},
+		{
+			"data": {
+				"Color": 6563343
+			},
+			"weight": 1.0,
+			"key": "twilightforest:fire_swamp"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:firefly_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:glacier"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:highlands"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:lake"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:mushroom_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:oak_savannah"
+		},
+		{
+			"data": {
+				"Color": 16777215
+			},
+			"weight": 1.0,
+			"key": "twilightforest:snowy_forest"
+		},
+		{
+			"data": {
+				"Color": 16745729
+			},
+			"weight": 1.0,
+			"key": "twilightforest:spooky_forest"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:stream"
+		},
+		{
+			"data": {
+				"Color": 4809015
+			},
+			"weight": 1.0,
+			"key": "twilightforest:swamp"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:thornlands"
+		},
+		{
+			"data": {
+				"Color": 0
+			},
+			"weight": 1.0,
+			"key": "twilightforest:underground"
+		}
+	]
+}

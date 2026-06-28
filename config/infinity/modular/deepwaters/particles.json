@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "deepwaters:discharge_particle"
+		},
+		{
+			"weight": 1.0,
+			"key": "deepwaters:membran_spores"
+		}
+	]
+}

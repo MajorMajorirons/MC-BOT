@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:gem_engraver"
+		},
+		{
+			"weight": 1.0,
+			"key": "glowberry_expantion:glowberry_refiner"
+		}
+	]
+}

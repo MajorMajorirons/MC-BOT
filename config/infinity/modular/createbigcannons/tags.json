@@ -1,0 +1,44 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:concrete"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:drill_can_pass_through"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:glass_effect_on_impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:netherrack"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:obsidian"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:reduces_spread"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:sandstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:spark_effect_on_impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:splinter_effect_on_impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "createbigcannons:thick_tubing"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+# DynamicMarket 設定
+max-listings-per-player: 10   # プレイヤーごとの最大出品数
+listing-fee: 0.0              # 出品手数料 (0 = 無料)
+min-price: 0.01               # 最低単価
+max-price: 10000000.0         # 最高単価
+price-history-sample: 10      # 市場平均の算出に使う取引履歴数
+currency-symbol: "$"          # 通貨記号

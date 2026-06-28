@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "water_creature"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:angler_fish"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:sculk_centipede"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:sculk_leech"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:sculk_snapper"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:shattered"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:shriek_worm"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:sludge"
+		},
+		{
+			"data": {
+				"Category": "monster"
+			},
+			"weight": 1.0,
+			"key": "deeperdarker:stalker"
+		}
+	]
+}

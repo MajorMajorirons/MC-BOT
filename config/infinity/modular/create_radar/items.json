@@ -1,0 +1,72 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "create_radar:auto_pitch_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:auto_yaw_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:binoculars"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:creative_radar_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:data_link"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:fire_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:guided_fuze"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:ident_filter_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:monitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:network_filterer"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:radar_bearing"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:radar_dish_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:radar_filter_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:radar_plate_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:radar_receiver_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:radar_safe_zone_designator"
+		},
+		{
+			"weight": 1.0,
+			"key": "create_radar:target_filter_item"
+		}
+	]
+}
