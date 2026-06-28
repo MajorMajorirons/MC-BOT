@@ -1,0 +1,22 @@
+name: ZoneManager
+version: 1.0.0
+main: com.server.zonemanager.ZoneManager
+api-version: 1.20
+description: 座標指定によるゾーン管理・爆発保護
+
+commands:
+  zone:
+    description: ゾーン管理コマンド
+    usage: /zone <claim|unclaim|explosion|info|list|adminzone|setowner|delete>
+    permission: zonemanager.use
+
+permissions:
+  zonemanager.use:
+    description: /zone コマンドの基本使用
+    default: true
+  zonemanager.claim:
+    description: 土地の登録
+    default: true
+  zonemanager.admin:
+    description: 管理者権限（全ゾーン操作可）
+    default: op
