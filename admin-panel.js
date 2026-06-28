@@ -29,29 +29,46 @@ let _adminRoleId       = '';
 let _adminDb = null;
 
 function initAdminDB() {
-    _adminDb = new Database(path.join(_serverPath, 'admin-panel.db'));
-    _adminDb.exec(`
-        CREATE TABLE IF NOT EXISTS sessions (
-            token TEXT PRIMARY KEY,
-            user_id TEXT NOT NULL,
-            username TEXT,
-            avatar TEXT,
-            authorized_guilds TEXT,
-            created_at INTEGER NOT NULL
-        );
-        CREATE TABLE IF NOT EXISTS mod_log (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            action TEXT NOT NULL,
-            target TEXT NOT NULL,
-            reason TEXT,
-            duration TEXT,
-            admin_discord_id TEXT,
-            admin_username TEXT,
-            created_at INTEGER NOT NULL
-        );
-    `);
-    // 期限切れセッションを削除
-    _adminDb.prepare('DELETE FROM sessions WHERE created_at < ?').run(Date.now() - 86400_000);
+    try {
+        _adminDb = new Database(path.join(_serverPath, 'admin-panel.db'));
+        _adminDb.exec(`
+            CREATE TABLE IF NOT EXISTS sessions (
+                token TEXT PRIMARY KEY,
+                user_id TEXT NOT NULL,
+                username TEXT,
+                avatar TEXT,
+                authorized_guilds TEXT,
+                created_at INTEGER NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS mod_log (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                action TEXT NOT NULL,
+                target TEXT NOT NULL,
+                reason TEXT,
+                duration TEXT,
+                admin_discord_id TEXT,
+                admin_username TEXT,
+                created_at INTEGER NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS mod_settings (
+                key TEXT PRIMARY KEY,
+                value TEXT NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS punishment_counts (
+                target TEXT PRIMARY KEY,
+                kick_count INTEGER NOT NULL DEFAULT 0,
+                tempban_count INTEGER NOT NULL DEFAULT 0
+            );
+        `);
+        _adminDb.prepare("INSERT OR IGNORE INTO mod_settings VALUES ('kick_to_tempban','0')").run();
+        _adminDb.prepare("INSERT OR IGNORE INTO mod_settings VALUES ('tempban_to_ban','0')").run();
+        _adminDb.prepare("INSERT OR IGNORE INTO mod_settings VALUES ('auto_tempban_duration','1d')").run();
+        // 期限切れセッションを削除
+        _adminDb.prepare('DELETE FROM sessions WHERE created_at < ?').run(Date.now() - 86400_000);
+    } catch (e) {
+        console.error('[ADMIN DB] initAdminDB エラー:', e.message);
+        _adminDb = null;
+    }
 }
 
 function createSession(data) {
@@ -62,22 +79,134 @@ function createSession(data) {
     return token;
 }
 function getSession(req) {
-    const token = parseCookie(req)['session'];
-    if (!token) return null;
-    const row = _adminDb.prepare('SELECT * FROM sessions WHERE token=?').get(token);
-    if (!row) return null;
-    if (Date.now() - row.created_at > 86400_000) {
-        _adminDb.prepare('DELETE FROM sessions WHERE token=?').run(token);
+    try {
+        const token = parseCookie(req)['session'];
+        if (!token) return null;
+        if (!_adminDb) return null;
+        const row = _adminDb.prepare('SELECT * FROM sessions WHERE token=?').get(token);
+        if (!row) return null;
+        if (Date.now() - row.created_at > 86400_000) {
+            _adminDb.prepare('DELETE FROM sessions WHERE token=?').run(token);
+            return null;
+        }
+        return { userId: row.user_id, username: row.username, avatar: row.avatar, authorizedGuilds: JSON.parse(row.authorized_guilds || '[]') };
+    } catch (e) {
+        console.error('[SESSION] getSession エラー:', e.message);
         return null;
     }
-    return { userId: row.user_id, username: row.username, avatar: row.avatar, authorizedGuilds: JSON.parse(row.authorized_guilds || '[]') };
 }
 
+const MOD_LEVELS = { kick: 1, tempban: 2, ban: 3, tempunban: 0, unban: 0 };
+
 function logMod(action, target, { reason, duration, req } = {}) {
+    const newLevel = MOD_LEVELS[action] ?? 1;
+    const existing = _adminDb.prepare('SELECT action FROM mod_log WHERE target = ?').get(target);
+    if (existing) {
+        const existingLevel = MOD_LEVELS[existing.action] ?? 1;
+        // 解除系は履歴から削除して終了
+        if (newLevel === 0) {
+            _adminDb.prepare('DELETE FROM mod_log WHERE target = ?').run(target);
+            return;
+        }
+        // 処罰は同レベル以上のみ上書き
+        if (newLevel < existingLevel) return;
+    } else if (newLevel === 0) {
+        return; // 解除対象がそもそも履歴にない
+    }
+    _adminDb.prepare('DELETE FROM mod_log WHERE target = ?').run(target);
     _adminDb.prepare(
         'INSERT INTO mod_log (action, target, reason, duration, admin_discord_id, admin_username, created_at) VALUES (?,?,?,?,?,?,?)'
     ).run(action, target, reason || null, duration || null, req?.session?.userId || null, req?.session?.username || null, Date.now());
 }
+
+function getSetting(key, def = '') {
+    if (!_adminDb) return def;
+    const r = _adminDb.prepare('SELECT value FROM mod_settings WHERE key=?').get(key);
+    return r ? r.value : def;
+}
+
+function resetPunishmentCounts(target) {
+    _adminDb.prepare('DELETE FROM punishment_counts WHERE target=?').run(target);
+}
+
+function incrementAndEscalate(target, action, proc) {
+    if (!_adminDb) return;
+    if (action !== 'kick' && action !== 'tempban') return;
+
+    const field = action === 'kick' ? 'kick_count' : 'tempban_count';
+    _adminDb.prepare(`
+        INSERT INTO punishment_counts (target, ${field}) VALUES (?,1)
+        ON CONFLICT(target) DO UPDATE SET ${field}=${field}+1
+    `).run(target);
+
+    const counts = _adminDb.prepare('SELECT * FROM punishment_counts WHERE target=?').get(target);
+
+    if (action === 'kick') {
+        const threshold = parseInt(getSetting('kick_to_tempban', '0'), 10);
+        if (threshold > 0 && counts.kick_count >= threshold) {
+            const duration = getSetting('auto_tempban_duration', '1d');
+            _adminDb.prepare('UPDATE punishment_counts SET kick_count=0 WHERE target=?').run(target);
+            const reason = `追放が${threshold}回に達したため自動参加停止`;
+            if (proc) {
+                if (_getOnlinePlayers().has(target)) proc.stdin.write(`kick ${target} ${reason}\n`);
+                proc.stdin.write(`tempban ${target} ${duration} ${reason}\n`);
+            } else {
+                const ms = _parseDurationMs(duration);
+                if (ms) _writeBannedPlayers(target, reason, new Date(Date.now() + ms));
+            }
+            logMod('tempban', target, { reason, duration });
+            incrementAndEscalate(target, 'tempban', proc);
+        }
+    } else {
+        const threshold = parseInt(getSetting('tempban_to_ban', '0'), 10);
+        if (threshold > 0 && counts.tempban_count >= threshold) {
+            _adminDb.prepare('UPDATE punishment_counts SET tempban_count=0 WHERE target=?').run(target);
+            const reason = `参加停止が${threshold}回に達したため自動BAN`;
+            if (proc) {
+                proc.stdin.write(`ban ${target} ${reason}\n`);
+            } else {
+                _writeBannedPlayers(target, reason, null);
+            }
+            logMod('ban', target, { reason });
+        }
+    }
+}
+
+function _banDateStr(date) {
+    return date.toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, ' +0000');
+}
+
+function _parseDurationMs(duration) {
+    const m = duration.match(/^(\d+)(m|h|d|w|mo|y)$/);
+    if (!m) return null;
+    const n = parseInt(m[1], 10);
+    const units = { m: 60000, h: 3600000, d: 86400000, w: 604800000, mo: 2592000000, y: 31536000000 };
+    return n * units[m[2]];
+}
+
+function _writeBannedPlayers(player, reason, expiresDate) {
+    const usercachePath = path.join(_serverPath, 'usercache.json');
+    const bannedPath    = path.join(_serverPath, 'banned-players.json');
+    let uuid = null, name = player;
+    try {
+        const cache = JSON.parse(fs.readFileSync(usercachePath, 'utf8'));
+        const hit = cache.find(e => e.name.toLowerCase() === player.toLowerCase());
+        if (hit) { uuid = hit.uuid; name = hit.name; }
+    } catch {}
+    if (!uuid) uuid = player.toLowerCase();
+    let banned = [];
+    try { banned = JSON.parse(fs.readFileSync(bannedPath, 'utf8')); } catch {}
+    banned = banned.filter(e => e.name.toLowerCase() !== player.toLowerCase());
+    banned.push({
+        uuid, name,
+        created: _banDateStr(new Date()),
+        source: 'Admin Panel',
+        expires: expiresDate ? _banDateStr(expiresDate) : 'forever',
+        reason: reason || 'Banned by an operator.'
+    });
+    fs.writeFileSync(bannedPath, JSON.stringify(banned, null, 2), 'utf8');
+}
+
 function parseCookie(req) {
     const out = {};
     (req.headers.cookie || '').split(';').forEach(c => {
@@ -396,47 +525,105 @@ function startAdminPanel({ port, serverPath, getProcess, dbPath, schedulePath, r
         }
         proc.stdin.write(`kick ${player}${reason ? ' ' + reason : ''}\n`);
         logMod('kick', player, { reason, req });
+        incrementAndEscalate(player, 'kick', proc);
         res.json({ ok: true });
     });
 
     app.post('/api/mod/ban', (req, res) => {
-        const proc = _getProcess();
-        if (!proc) return res.status(400).json({ error: 'サーバーが停止中です' });
         const { player, reason } = req.body;
         if (!player) return res.status(400).json({ error: 'player が必要です' });
-        proc.stdin.write(`ban ${player}${reason ? ' ' + reason : ''}\n`);
+        const proc = _getProcess();
+        if (proc) {
+            proc.stdin.write(`ban ${player}${reason ? ' ' + reason : ''}\n`);
+        } else {
+            try { _writeBannedPlayers(player, reason, null); }
+            catch (e) { return res.status(500).json({ error: 'banned-players.json への書き込み失敗: ' + e.message }); }
+        }
         logMod('ban', player, { reason, req });
         res.json({ ok: true });
     });
 
     app.post('/api/mod/tempban', (req, res) => {
-        const proc = _getProcess();
-        if (!proc) return res.status(400).json({ error: 'サーバーが停止中です' });
         const { player, duration, reason } = req.body;
         if (!player || !duration) return res.status(400).json({ error: 'player と duration が必要です' });
-        proc.stdin.write(`tempban ${player} ${duration}${reason ? ' ' + reason : ''}\n`);
+        const proc = _getProcess();
+        if (proc) {
+            const online = _getOnlinePlayers();
+            if (online.has(player)) proc.stdin.write(`kick ${player}${reason ? ' ' + reason : ''}\n`);
+            proc.stdin.write(`tempban ${player} ${duration}${reason ? ' ' + reason : ''}\n`);
+        } else {
+            const ms = _parseDurationMs(duration);
+            if (!ms) return res.status(400).json({ error: '期間の形式が正しくありません (例: 1d, 2h)' });
+            try { _writeBannedPlayers(player, reason, new Date(Date.now() + ms)); }
+            catch (e) { return res.status(500).json({ error: 'banned-players.json への書き込み失敗: ' + e.message }); }
+        }
         logMod('tempban', player, { reason, duration, req });
+        incrementAndEscalate(player, 'tempban', proc);
         res.json({ ok: true });
     });
 
     app.post('/api/mod/unban', (req, res) => {
-        const proc = _getProcess();
-        if (!proc) return res.status(400).json({ error: 'サーバーが停止中です' });
         const { player } = req.body;
         if (!player) return res.status(400).json({ error: 'player が必要です' });
-        proc.stdin.write(`pardon ${player}\n`);
+        const proc = _getProcess();
+        if (proc) {
+            proc.stdin.write(`pardon ${player}\n`);
+        } else {
+            try {
+                const bannedPath = path.join(_serverPath, 'banned-players.json');
+                let banned = [];
+                try { banned = JSON.parse(fs.readFileSync(bannedPath, 'utf8')); } catch {}
+                banned = banned.filter(e => e.name.toLowerCase() !== player.toLowerCase());
+                fs.writeFileSync(bannedPath, JSON.stringify(banned, null, 2), 'utf8');
+            } catch (e) { return res.status(500).json({ error: 'banned-players.json の更新失敗: ' + e.message }); }
+        }
         logMod('unban', player, { req });
+        resetPunishmentCounts(player);
         res.json({ ok: true });
     });
 
     app.post('/api/mod/tempunban', (req, res) => {
-        const proc = _getProcess();
-        if (!proc) return res.status(400).json({ error: 'サーバーが停止中です' });
         const { player } = req.body;
         if (!player) return res.status(400).json({ error: 'player が必要です' });
-        proc.stdin.write(`unban ${player}\n`);
+        const proc = _getProcess();
+        if (proc) {
+            proc.stdin.write(`pardon ${player}\n`);
+        } else {
+            try {
+                const bannedPath = path.join(_serverPath, 'banned-players.json');
+                let banned = [];
+                try { banned = JSON.parse(fs.readFileSync(bannedPath, 'utf8')); } catch {}
+                banned = banned.filter(e => e.name.toLowerCase() !== player.toLowerCase());
+                fs.writeFileSync(bannedPath, JSON.stringify(banned, null, 2), 'utf8');
+            } catch (e) { return res.status(500).json({ error: 'banned-players.json の更新失敗: ' + e.message }); }
+        }
         logMod('tempunban', player, { req });
+        resetPunishmentCounts(player);
         res.json({ ok: true });
+    });
+
+    app.get('/api/mod/settings', requireAuth, (req, res) => {
+        res.json({
+            kick_to_tempban:       getSetting('kick_to_tempban', '0'),
+            tempban_to_ban:        getSetting('tempban_to_ban', '0'),
+            auto_tempban_duration: getSetting('auto_tempban_duration', '1d'),
+        });
+    });
+
+    app.post('/api/mod/settings', requireAuth, (req, res) => {
+        const { kick_to_tempban, tempban_to_ban, auto_tempban_duration } = req.body;
+        const set = (k, v) => _adminDb.prepare('INSERT OR REPLACE INTO mod_settings VALUES (?,?)').run(k, String(v));
+        if (kick_to_tempban       !== undefined) set('kick_to_tempban',       kick_to_tempban);
+        if (tempban_to_ban        !== undefined) set('tempban_to_ban',        tempban_to_ban);
+        if (auto_tempban_duration !== undefined) set('auto_tempban_duration', auto_tempban_duration);
+        res.json({ ok: true });
+    });
+
+    app.get('/api/mod/counts', requireAuth, (req, res) => {
+        const rows = _adminDb.prepare('SELECT * FROM punishment_counts').all();
+        const map = {};
+        rows.forEach(r => { map[r.target] = { kick: r.kick_count, tempban: r.tempban_count }; });
+        res.json(map);
     });
 
     app.get('/api/mod/log', (req, res) => {
@@ -728,10 +915,10 @@ tr:hover td{background:#1e2a3a}
           <input id="modReason" placeholder="ルール違反" style="width:100%;background:#0d1117;color:#e0e0e0;border:1px solid #1e2a3a;padding:6px 10px;border-radius:4px;margin-top:4px">
         </div>
 
-        <!-- 参加停止期間 -->
-        <div id="tempban-row" style="display:none;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
+        <!-- 参加停止期間（参加停止ボタン用・常時表示） -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
           <div>
-            <label style="font-size:12px;color:#aaa">期間（数値）</label><br>
+            <label style="font-size:12px;color:#aaa">参加停止期間（数値）</label><br>
             <input id="modDurVal" type="number" min="1" value="1" style="width:100%;background:#0d1117;color:#e0e0e0;border:1px solid #1e2a3a;padding:6px 10px;border-radius:4px;margin-top:4px">
           </div>
           <div>
@@ -751,11 +938,41 @@ tr:hover td{background:#1e2a3a}
         <div style="display:flex;gap:8px;flex-wrap:wrap">
           <button class="btn btn-orange" onclick="modAction('kick')">追放 (Kick)</button>
           <button class="btn btn-red" onclick="modAction('ban')">BAN</button>
-          <button class="btn btn-red" onclick="showTempban()" id="btnTempban" style="background:#7b1fa2">参加停止 (Tempban)</button>
-          <div style="width:100%;height:0"></div>
-          <button class="btn btn-blue" onclick="modAction('unban')">BAN解除</button>
-          <button class="btn btn-blue" onclick="modAction('tempunban')" style="background:#00838f">参加停止解除</button>
+          <button class="btn btn-red" onclick="modAction('tempban')" style="background:#7b1fa2">参加停止 (Tempban)</button>
         </div>
+      </div>
+
+      <!-- エスカレーション設定 -->
+      <div style="background:#161b22;border:1px solid #1e2a3a;border-radius:8px;padding:16px;margin-top:12px">
+        <div style="font-weight:600;color:#aaa;margin-bottom:12px;font-size:13px">⚙️ 自動エスカレーション設定</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+          <div>
+            <label style="font-size:12px;color:#aaa">追放 N 回で自動参加停止（0=無効）</label><br>
+            <input id="esc-kick-count" type="number" min="0" value="0" style="width:100%;background:#0d1117;color:#e0e0e0;border:1px solid #1e2a3a;padding:6px 10px;border-radius:4px;margin-top:4px">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#aaa">参加停止 N 回で自動 BAN（0=無効）</label><br>
+            <input id="esc-tempban-count" type="number" min="0" value="0" style="width:100%;background:#0d1117;color:#e0e0e0;border:1px solid #1e2a3a;padding:6px 10px;border-radius:4px;margin-top:4px">
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
+          <div>
+            <label style="font-size:12px;color:#aaa">自動参加停止の期間（数値）</label><br>
+            <input id="esc-dur-val" type="number" min="1" value="1" style="width:100%;background:#0d1117;color:#e0e0e0;border:1px solid #1e2a3a;padding:6px 10px;border-radius:4px;margin-top:4px">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#aaa">単位</label><br>
+            <select id="esc-dur-unit" style="width:100%;background:#0d1117;color:#e0e0e0;border:1px solid #1e2a3a;padding:6px 10px;border-radius:4px;margin-top:4px">
+              <option value="m">分 (m)</option>
+              <option value="h">時間 (h)</option>
+              <option value="d" selected>日 (d)</option>
+              <option value="w">週 (w)</option>
+              <option value="mo">ヶ月 (mo)</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn btn-blue" onclick="saveEscSettings()" style="font-size:12px;padding:5px 16px">保存</button>
+        <span id="esc-save-msg" style="font-size:12px;color:#4caf50;margin-left:10px;display:none">✅ 保存しました</span>
       </div>
 
       <!-- 処罰履歴 -->
@@ -774,6 +991,7 @@ tr:hover td{background:#1e2a3a}
                 <th style="text-align:left;padding:4px 8px">期間</th>
                 <th style="text-align:left;padding:4px 8px">理由</th>
                 <th style="text-align:left;padding:4px 8px">実行者</th>
+                <th style="text-align:left;padding:4px 8px">操作</th>
               </tr>
             </thead>
             <tbody id="modLogBody">
@@ -958,9 +1176,15 @@ function refreshPlayerLists(online) {
   onlinePlayers = online || [];
   renderModList();
 }
-fetch('/api/players/known').then(r=>r.json()).then(names => {
-  knownPlayers = names;
+fetch('/api/players/known').then(r => {
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return r.json();
+}).then(names => {
+  knownPlayers = Array.isArray(names) ? names : [];
   renderModList();
+}).catch(e => {
+  const el = document.getElementById('modPlayerList');
+  if (el) el.innerHTML = \`<div style="padding:20px;text-align:center;color:#e57373;font-size:13px">読み込み失敗: \${e.message}</div>\`;
 });
 
 function renderModList() {
@@ -1016,14 +1240,37 @@ function getSelectedModPlayers() {
   return [...document.querySelectorAll('.mod-check:checked')].map(c => c.value);
 }
 
-// ---- モデレーション ----
-let tempbanVisible = false;
-function showTempban() {
-  tempbanVisible = !tempbanVisible;
-  const row = document.getElementById('tempban-row');
-  row.style.display = tempbanVisible ? 'grid' : 'none';
-  document.getElementById('btnTempban').style.opacity = tempbanVisible ? '1' : '0.7';
+// ---- エスカレーション設定 ----
+async function loadEscSettings() {
+  try {
+    const s = await fetch('/api/mod/settings').then(r => r.json());
+    document.getElementById('esc-kick-count').value    = s.kick_to_tempban || '0';
+    document.getElementById('esc-tempban-count').value = s.tempban_to_ban || '0';
+    const dur = s.auto_tempban_duration || '1d';
+    const m = dur.match(/^(\d+)(m|h|d|w|mo)$/);
+    if (m) {
+      document.getElementById('esc-dur-val').value  = m[1];
+      document.getElementById('esc-dur-unit').value = m[2];
+    }
+  } catch {}
 }
+async function saveEscSettings() {
+  const kick_to_tempban       = parseInt(document.getElementById('esc-kick-count').value, 10) || 0;
+  const tempban_to_ban        = parseInt(document.getElementById('esc-tempban-count').value, 10) || 0;
+  const auto_tempban_duration = document.getElementById('esc-dur-val').value + document.getElementById('esc-dur-unit').value;
+  const r = await fetch('/api/mod/settings', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ kick_to_tempban, tempban_to_ban, auto_tempban_duration })
+  }).then(res => res.json());
+  if (r.ok) {
+    const msg = document.getElementById('esc-save-msg');
+    msg.style.display = 'inline';
+    setTimeout(() => { msg.style.display = 'none'; }, 2000);
+  }
+}
+loadEscSettings();
+
+// ---- モデレーション ----
 
 async function modAction(action) {
   const players = getSelectedModPlayers();
@@ -1032,15 +1279,17 @@ async function modAction(action) {
     const offlines = players.filter(p => !onlinePlayers.map(n=>n.toLowerCase()).includes(p.toLowerCase()));
     if (offlines.length > 0) return showToast('追放はオンラインのみ可能: ' + offlines.join(', '));
   }
-  const labels = { kick:'追放', ban:'BAN', tempban:'参加停止', unban:'BAN解除', tempunban:'参加停止解除' };
+  const labels = { kick:'追放', ban:'BAN', tempban:'参加停止', unban:'BAN解除' };
   const reason = document.getElementById('modReason').value.trim();
   const plural = players.length > 1 ? \`\${players.length}人\` : players[0];
 
   if (action === 'tempban') {
-    const val = document.getElementById('modDurVal').value;
+    const val = parseInt(document.getElementById('modDurVal').value, 10);
     const unit = document.getElementById('modDurUnit').value;
+    if (!val || val < 1) return showToast('参加停止期間を入力してください');
     const duration = val + unit;
-    if (!confirm(\`\${plural} を \${duration} 間参加停止にしますか？\`)) return;
+    const reasonText = reason ? \`\\n理由: \${reason}\` : '';
+    if (!confirm(\`\${plural} を \${duration} 間参加停止にしますか？\${reasonText}\`)) return;
     const results = await Promise.all(players.map(player =>
       fetch('/api/mod/tempban', {
         method:'POST', headers:{'Content-Type':'application/json'},
@@ -1054,10 +1303,9 @@ async function modAction(action) {
   }
 
   const actionLabels = {
-    kick:     \`\${plural} を追放しますか？\`,
-    ban:      \`\${plural} をBANしますか？（永久）\`,
-    unban:    \`\${plural} のBANを解除しますか？\`,
-    tempunban:\`\${plural} の参加停止を解除しますか？\`,
+    kick:  \`\${plural} を追放しますか？\`,
+    ban:   \`\${plural} をBANしますか？（永久）\`,
+    unban: \`\${plural} のBANを解除しますか？\`,
   };
   if (!confirm(actionLabels[action])) return;
 
@@ -1072,6 +1320,26 @@ async function modAction(action) {
   else showToast(\`❌ 失敗: \${failed.map(r=>r.player+': '+r.error).join(' / ')}\`);
 }
 
+async function tempunbanPlayer(player) {
+  if (!confirm(\`\${player} の参加停止を解除しますか？\`)) return;
+  const r = await fetch('/api/mod/tempunban', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ player })
+  }).then(res=>res.json());
+  if (r.ok) { showToast(\`✅ \${player} の参加停止を解除しました\`); loadModLog(); }
+  else showToast(\`❌ 失敗: \${r.error}\`);
+}
+
+async function unbanPlayer(player) {
+  if (!confirm(\`\${player} の BAN を解除しますか？\`)) return;
+  const r = await fetch('/api/mod/unban', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ player })
+  }).then(res=>res.json());
+  if (r.ok) { showToast(\`✅ \${player} の BAN を解除しました\`); loadModLog(); }
+  else showToast(\`❌ 失敗: \${r.error}\`);
+}
+
 // ---- 処罰履歴 ----
 const modActionLabels = { kick:'追放', ban:'BAN', tempban:'参加停止', unban:'BAN解除', tempunban:'参加停止解除' };
 async function loadModLog() {
@@ -1080,13 +1348,18 @@ async function loadModLog() {
   try {
     const rows = await fetch('/api/mod/log').then(r => r.json());
     if (!rows.length) {
-      tbody.innerHTML = '<tr><td colspan="6" style="padding:16px;text-align:center;color:#555">履歴なし</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="7" style="padding:16px;text-align:center;color:#555">履歴なし</td></tr>';
       return;
     }
     tbody.innerHTML = rows.map(r => {
       const d = new Date(r.created_at);
       const dt = d.toLocaleDateString('ja-JP') + ' ' + d.toLocaleTimeString('ja-JP', {hour:'2-digit',minute:'2-digit'});
       const clr = {kick:'#ffb74d',ban:'#e57373',tempban:'#ce93d8',unban:'#90caf9',tempunban:'#80cbc4'}[r.action]||'#e0e0e0';
+      const opCell = r.action === 'tempban'
+        ? \`<td style="padding:5px 8px"><button class="btn btn-sm" onclick="tempunbanPlayer('\${r.target}')" style="background:#00838f;padding:2px 8px;font-size:11px">解除</button></td>\`
+        : r.action === 'ban'
+        ? \`<td style="padding:5px 8px"><button class="btn btn-sm" onclick="unbanPlayer('\${r.target}')" style="background:#1565c0;padding:2px 8px;font-size:11px">BAN解除</button></td>\`
+        : '<td></td>';
       return \`<tr style="border-bottom:1px solid #0d1117">
         <td style="padding:5px 8px;color:#777;white-space:nowrap">\${dt}</td>
         <td style="padding:5px 8px;color:#e0e0e0;font-weight:600">\${r.target}</td>
@@ -1094,6 +1367,7 @@ async function loadModLog() {
         <td style="padding:5px 8px;color:#aaa">\${r.duration||'-'}</td>
         <td style="padding:5px 8px;color:#aaa">\${r.reason||'-'}</td>
         <td style="padding:5px 8px;color:#777">\${r.admin_username||'-'}</td>
+        \${opCell}
       </tr>\`;
     }).join('');
   } catch(e) {

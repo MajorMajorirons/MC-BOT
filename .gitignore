@@ -12,7 +12,8 @@ node_modules/
 # === Minecraft サーバー本体 (容量大・再ダウンロード可) ===
 *.jar
 libraries/
-mods/
+mods/*
+!mods/.gitkeep
 tacz/
 
 # === ワールドデータ ===

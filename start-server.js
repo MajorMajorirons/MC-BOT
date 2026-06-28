@@ -8,7 +8,7 @@ const path = require('path');
 const crypto = require('crypto');
 const schedule = require('node-schedule');
 const iconv = require('iconv-lite'); // 文字化け対策
-const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder, EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder } = require('discord.js');
 
 const { startAdminPanel, pushLogLine } = require('./admin-panel');
 
@@ -70,6 +70,8 @@ const warningMessageIdFile = 'discord_warning_id.txt';
 const crashMessageIdFile = 'discord_crash_id.txt';
 
 let serverProcess = null;
+let serverReady = false;   // true = 起動完了済み（Doneログ検出後）
+let isManualStop = false;  // true = /stop による意図的な停止
 let e4mcIp = null;
 let lineBuffer = '';
 let mcCaptureLines = null; // stdout一時キャプチャ用
@@ -198,9 +200,49 @@ const discordClient = new Client({
 discordClient.once('clientReady', async () => {
     console.log(`[DISCORD BOT] ログインしました: ${discordClient.user.tag}`);
 
-    // Bot起動時にDiscordへ通知（MCサーバーは停止中）
+    // Bot起動時: チャンネル内の過去のBotメッセージをすべて削除
     const channel = await getChannel();
     if (channel) {
+        try {
+            let deleted = 0;
+            let lastId = undefined;
+            while (true) {
+                const opts = { limit: 100 };
+                if (lastId) opts.before = lastId;
+                const messages = await channel.messages.fetch(opts);
+                if (messages.size === 0) break;
+
+                const TARGET_TITLES = ['Bot 起動完了', '🟢 サーバー起動中', '⚙️ サーバー起動処理中...', '🛑 サーバー停止完了'];
+                const botMsgs = messages.filter(m =>
+                    m.author.id === discordClient.user.id &&
+                    m.embeds.some(e => TARGET_TITLES.includes(e.title))
+                );
+                const twoWeeksAgo = Date.now() - 14 * 24 * 60 * 60 * 1000;
+
+                // 14日以内はbulkDelete、それ以降は個別削除
+                const recent = botMsgs.filter(m => m.createdTimestamp > twoWeeksAgo);
+                const old    = botMsgs.filter(m => m.createdTimestamp <= twoWeeksAgo);
+
+                if (recent.size >= 2) {
+                    await channel.bulkDelete(recent).catch(() => {});
+                    deleted += recent.size;
+                } else if (recent.size === 1) {
+                    await recent.first().delete().catch(() => {});
+                    deleted += 1;
+                }
+                for (const msg of old.values()) {
+                    await msg.delete().catch(() => {});
+                    deleted++;
+                }
+
+                lastId = messages.last().id;
+                if (messages.size < 100) break;
+            }
+            console.log(`[DISCORD BOT] 過去のBotメッセージを ${deleted} 件削除しました`);
+        } catch (err) {
+            console.error('[DISCORD BOT] メッセージ削除エラー:', err.message);
+        }
+
         const embed = new EmbedBuilder()
             .setTitle('Bot 起動完了')
             .setDescription('管理Botが起動しました。\nマインクラフトサーバーは停止中です。\n`/start` コマンドで起動できます。')
@@ -236,8 +278,18 @@ discordClient.on('messageCreate', async (message) => {
     }
 });
 
-// interactionCreate (スラッシュコマンド専用)
+// interactionCreate (スラッシュコマンド + ボタン)
 discordClient.on('interactionCreate', async (interaction) => {
+    if (interaction.isButton()) {
+        if (interaction.customId.startsWith('copy_ip:')) {
+            const ip = interaction.customId.slice('copy_ip:'.length);
+            return interaction.reply({
+                content: `📋 接続先IP:\n\`\`\`\n${ip}\n\`\`\`\nコードブロックを長押し（またはタップ）してコピーしてください。`,
+                ephemeral: true
+            });
+        }
+        return;
+    }
     if (!interaction.isChatInputCommand()) return;
     if (interaction.channel.id !== discordChannelId) {
         return interaction.reply({ content: 'このチャンネルではコマンドを実行できません。', ephemeral: true });
@@ -264,7 +316,7 @@ discordClient.on('interactionCreate', async (interaction) => {
             return interaction.reply({ content: 'サーバーは既に起動しています。', ephemeral: true });
         }
         isCrashLoopPaused = false;
-        await interaction.reply({ content: '⚙️ サーバーを起動します...' });
+        await interaction.reply({ content: '⚙️ 起動処理を開始します...', ephemeral: true });
         startServer();
         return;
     }
@@ -276,14 +328,14 @@ discordClient.on('interactionCreate', async (interaction) => {
         }
         isScheduledRestart = false;
         stopServer();
-        return interaction.reply({ content: '🛑 サーバーを停止します。' });
+        return interaction.reply({ content: '🛑 停止処理を開始します...', ephemeral: true });
     }
 
     // (C) 再起動コマンド
     if (commandName === 'restart') {
         if (!serverProcess) {
             isCrashLoopPaused = false;
-            await interaction.reply({ content: '⚙️ サーバーが停止中のため、起動します...' });
+            await interaction.reply({ content: '⚙️ 起動処理を開始します...', ephemeral: true });
             startServer();
             return;
         }
@@ -416,6 +468,7 @@ async function deleteMessage(messageId, logPrefix = '古いメッセージ') {
 
 /**
  * 起動中ステータスメッセージを削除してIDファイルをクリアする
+ * ID が失われていてもチャンネルスキャンで確実に削除する
  */
 async function deleteStatusMessage() {
     const messageId = readMessageId(statusMessageIdFile);
@@ -423,15 +476,64 @@ async function deleteStatusMessage() {
         await deleteMessage(messageId, '起動中ステータスメッセージ');
         saveMessageId('', statusMessageIdFile);
     }
+
+    const channel = await getChannel();
+    if (!channel) return;
+    try {
+        let lastId;
+        while (true) {
+            const opts = { limit: 100 };
+            if (lastId) opts.before = lastId;
+            const messages = await channel.messages.fetch(opts);
+            if (messages.size === 0) break;
+            for (const m of messages.values()) {
+                if (m.author.id === discordClient.user?.id &&
+                    m.embeds.some(e => e.title === '🟢 サーバー起動中' || e.title === '⚙️ サーバー起動処理中...')) {
+                    await m.delete().catch(() => {});
+                }
+            }
+            lastId = messages.last().id;
+            if (messages.size < 100) break;
+        }
+    } catch {}
 }
 
 /**
  * サーバー起動処理中ステータスを送信する（オレンジ）
  * e4mc IP判明後に sendToDiscord() で緑に更新される
  */
+const PRE_START_TITLES = ['Bot 起動完了', '🛑 サーバー停止完了'];
+
+async function deleteBotStartupMessage() {
+    const channel = await getChannel();
+    if (!channel) return;
+    try {
+        let lastId;
+        while (true) {
+            const opts = { limit: 100 };
+            if (lastId) opts.before = lastId;
+            const messages = await channel.messages.fetch(opts);
+            if (messages.size === 0) break;
+            for (const m of messages.values()) {
+                if (m.author.id === discordClient.user?.id &&
+                    m.embeds.some(e => PRE_START_TITLES.includes(e.title))) {
+                    await m.delete().catch(() => {});
+                }
+            }
+            lastId = messages.last().id;
+            if (messages.size < 100) break;
+        }
+    } catch (e) {
+        console.error('[DISCORD BOT] 起動前メッセージ削除エラー:', e.message);
+    }
+}
+
 async function sendStartingStatus() {
     const channel = await getChannel();
     if (!channel) return;
+
+    // Bot起動完了メッセージを削除
+    await deleteBotStartupMessage();
 
     // 既存のステータスメッセージがあれば削除
     await deleteStatusMessage();
@@ -464,14 +566,21 @@ async function sendToDiscord(ipAddress) {
         .setColor(0x2ECC71)
         .addFields({ name: '起動完了時刻', value: `<t:${Math.floor(Date.now() / 1000)}:F>` });
 
+    const copyButton = new ButtonBuilder()
+        .setCustomId(`copy_ip:${ipAddress}`)
+        .setLabel('📋 IPをコピー')
+        .setStyle(ButtonStyle.Secondary);
+
+    const row = new ActionRowBuilder().addComponents(copyButton);
+
     const messageId = readMessageId(statusMessageIdFile);
     try {
         if (messageId) {
             const msg = await channel.messages.fetch(messageId);
-            await msg.edit({ embeds: [embed] });
+            await msg.edit({ embeds: [embed], components: [row] });
             console.log('[SCRIPT] 起動中ステータスメッセージを更新しました。');
         } else {
-            const msg = await channel.send({ embeds: [embed] });
+            const msg = await channel.send({ embeds: [embed], components: [row] });
             saveMessageId(msg.id, statusMessageIdFile);
             console.log(`[SCRIPT] 起動中ステータスを新規送信しました。(ID: ${msg.id})`);
         }
@@ -545,11 +654,29 @@ async function sendChatToDiscord(playerName, message) {
         .replace(/@everyone/g, '@​everyone')
         .replace(/@here/g, '@​here');
 
+    let authorName = cleanPlayerName;
+    let authorIcon = `https://minotar.net/avatar/${cleanPlayerName}/64.png`;
+
+    if (Database && fs.existsSync(MARKET_DB_PATH)) {
+        try {
+            const db = new Database(MARKET_DB_PATH, { readonly: true });
+            const link = db.prepare('SELECT discord_id, discord_name FROM discord_links WHERE minecraft_name=?').get(cleanPlayerName);
+            db.close();
+            if (link) {
+                authorName = link.discord_name;
+                try {
+                    const guild = await discordClient.guilds.fetch(GUILD_ID);
+                    const member = await guild.members.fetch(link.discord_id);
+                    authorIcon = member.user.displayAvatarURL({ size: 64 });
+                } catch {
+                    authorIcon = `https://cdn.discordapp.com/embed/avatars/0.png`;
+                }
+            }
+        } catch {}
+    }
+
     const embed = new EmbedBuilder()
-        .setAuthor({
-            name: cleanPlayerName,
-            iconURL: `https://minotar.net/avatar/${cleanPlayerName}/64.png`
-        })
+        .setAuthor({ name: authorName, iconURL: authorIcon })
         .setDescription(cleanMessage)
         .setColor(0x44FF44);
 
@@ -573,6 +700,7 @@ async function startServer() {
     isCrashLoopPaused = false;
     recentCrashTimestamps = [];
     isScheduledRestart = false;
+    isManualStop = false;
 
     // クラッシュ通知・警告通知を削除
     const oldWarningId = readMessageId(warningMessageIdFile);
@@ -593,6 +721,7 @@ async function startServer() {
     lineBuffer = '';
 
     serverProcess = spawn(serverCommand, serverArgs);
+    serverReady = false;
 
     serverProcess.stdout.on('data', (data) => {
         const decodedData = iconv.decode(data, 'shiftjis');
@@ -605,6 +734,13 @@ async function startServer() {
             console.log(logLine);
             if (mcCaptureLines !== null) mcCaptureLines.push(logLine);
             pushLogLine(logLine);
+
+            // 起動完了検出
+            if (!serverReady && /INFO\].*Done \([\d.]+s\)!/.test(logLine)) {
+                serverReady = true;
+                console.log('[SCRIPT] サーバー起動完了を検出しました。');
+                if (e4mcIp) sendToDiscord(e4mcIp); // 起動完了後に IP を通知
+            }
 
             // オンラインプレイヤー追跡
             const joinMatch  = logLine.match(/INFO\]: (\S+) joined the game/);
@@ -621,7 +757,7 @@ async function startServer() {
                     console.log('=======================================');
                     fs.writeFileSync('e4mc_ip.txt', e4mcIp, 'utf-8');
                     console.log('[SCRIPT] IPを e4mc_ip.txt に 保存しました。');
-                    sendToDiscord(e4mcIp); // ステータスメッセージを緑に更新
+                    if (serverReady) sendToDiscord(e4mcIp); // 起動完了済みなら即通知
                 }
             }
             const chatMatch = logLine.match(chatRegex);
@@ -663,6 +799,7 @@ async function startServer() {
             if (lineBuffer) console.log(lineBuffer);
             console.log(`[SCRIPT] サーバープロセスが終了しました (コード: ${code})`);
             serverProcess = null;
+            serverReady = false;
             onlinePlayers.clear();
 
             // 起動中ステータスメッセージを常に削除する
@@ -673,6 +810,21 @@ async function startServer() {
             if (isScheduledRestart) {
                 // /restart コマンド またはスケジュール再起動 → そのまま再起動
                 isScheduledRestart = false;
+
+            } else if (isManualStop) {
+                // 起動途中に /stop → 再起動しない
+                isManualStop = false;
+                console.log('[SCRIPT] 起動途中に手動停止されました。再起動を行いません。');
+                const channel = await getChannel();
+                if (channel) {
+                    const embed = new EmbedBuilder()
+                        .setTitle('🛑 サーバー停止完了')
+                        .setDescription('起動途中に停止しました。`/start` コマンドで再起動できます。')
+                        .setColor(0x95A5A6)
+                        .addFields({ name: '停止時刻', value: `<t:${Math.floor(Date.now() / 1000)}:F>` });
+                    channel.send({ embeds: [embed] }).catch(() => {});
+                }
+                return;
 
             } else if (code === 0) {
                 // 正常終了 = ターミナルを閉じた / ゲーム内 stop / Discord /stop → 停止維持
@@ -721,9 +873,14 @@ async function startServer() {
  * サーバーに 'stop' コマンドを送信して停止する関数
  */
 function stopServer() {
-    if (serverProcess) {
+    if (!serverProcess) return;
+    isManualStop = true;
+    if (serverReady) {
         console.log('[SCRIPT] サーバーに停止コマンドを送信します...');
         serverProcess.stdin.write('stop\n');
+    } else {
+        console.log('[SCRIPT] 起動中のため強制終了します...');
+        serverProcess.kill();
     }
 }
 
