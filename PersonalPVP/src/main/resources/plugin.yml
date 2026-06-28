@@ -1,0 +1,17 @@
+name: PersonalPVP
+version: 1.0.0
+main: com.server.personalpvp.PersonalPVP
+api-version: 1.20
+description: 個人PVPトグル (GTA パッシブモード方式)
+authors: [Server Admin]
+
+commands:
+  pvp:
+    description: 自分のPVP状態をトグルまたは設定する
+    usage: /pvp [on|off]
+    permission: personalpvp.toggle
+
+permissions:
+  personalpvp.toggle:
+    description: /pvp コマンドの使用
+    default: true
