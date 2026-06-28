@@ -7,6 +7,7 @@ public class Zone {
     private String ownerUuid;   // null = 管理者ゾーン
     private String ownerName;
     private boolean explosionProtected;
+    private double sellPrice;   // 0 = 非売品
     private final long createdAt;
 
     public Zone(String name, String world,
@@ -25,6 +26,7 @@ public class Zone {
         this.ownerUuid          = ownerUuid;
         this.ownerName          = ownerName;
         this.explosionProtected = explosionProtected;
+        this.sellPrice          = 0;
         this.createdAt          = createdAt;
     }
 
@@ -42,25 +44,28 @@ public class Zone {
             && z1 <= o.z2 && z2 >= o.z1;
     }
 
-    public boolean isAdminZone()         { return ownerUuid == null; }
-    public boolean isOwnedBy(String uuid){ return uuid != null && uuid.equals(ownerUuid); }
+    public boolean isAdminZone()          { return ownerUuid == null; }
+    public boolean isOwnedBy(String uuid) { return uuid != null && uuid.equals(ownerUuid); }
+    public boolean isForSale()            { return sellPrice > 0; }
 
     // --- getters ---
-    public String  getName()               { return name; }
-    public String  getWorld()              { return world; }
-    public int     getX1()                 { return x1; }
-    public int     getY1()                 { return y1; }
-    public int     getZ1()                 { return z1; }
-    public int     getX2()                 { return x2; }
-    public int     getY2()                 { return y2; }
-    public int     getZ2()                 { return z2; }
-    public String  getOwnerUuid()          { return ownerUuid; }
-    public String  getOwnerName()          { return ownerName; }
-    public boolean isExplosionProtected()  { return explosionProtected; }
-    public long    getCreatedAt()          { return createdAt; }
+    public String  getName()              { return name; }
+    public String  getWorld()             { return world; }
+    public int     getX1()                { return x1; }
+    public int     getY1()                { return y1; }
+    public int     getZ1()                { return z1; }
+    public int     getX2()                { return x2; }
+    public int     getY2()                { return y2; }
+    public int     getZ2()                { return z2; }
+    public String  getOwnerUuid()         { return ownerUuid; }
+    public String  getOwnerName()         { return ownerName; }
+    public boolean isExplosionProtected() { return explosionProtected; }
+    public double  getSellPrice()         { return sellPrice; }
+    public long    getCreatedAt()         { return createdAt; }
 
     // --- setters ---
     public void setOwnerUuid(String uuid)              { this.ownerUuid = uuid; }
     public void setOwnerName(String name)              { this.ownerName = name; }
     public void setExplosionProtected(boolean enabled) { this.explosionProtected = enabled; }
+    public void setSellPrice(double price)             { this.sellPrice = price; }
 }

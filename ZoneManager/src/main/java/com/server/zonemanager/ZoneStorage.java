@@ -40,6 +40,7 @@ public class ZoneStorage {
                     z.getBoolean("explosion_protected", true),
                     z.getLong("created_at", System.currentTimeMillis())
                 );
+                zone.setSellPrice(z.getDouble("sell_price", 0));
                 zones.put(name.toLowerCase(), zone);
             } catch (Exception e) {
                 log.warning("ゾーン読み込み失敗: " + name + " - " + e.getMessage());
@@ -62,6 +63,7 @@ public class ZoneStorage {
             cfg.set(path + ".owner_uuid",            z.getOwnerUuid());
             cfg.set(path + ".owner_name",            z.getOwnerName());
             cfg.set(path + ".explosion_protected",   z.isExplosionProtected());
+            cfg.set(path + ".sell_price",            z.getSellPrice());
             cfg.set(path + ".created_at",            z.getCreatedAt());
         }
         try {
@@ -107,6 +109,15 @@ public class ZoneStorage {
             if (!zone.getName().equalsIgnoreCase(candidate.getName()) && zone.overlaps(candidate)) {
                 result.add(zone);
             }
+        }
+        return result;
+    }
+
+    /** 販売中のゾーン一覧 */
+    public List<Zone> getForSaleZones() {
+        List<Zone> result = new ArrayList<>();
+        for (Zone zone : zones.values()) {
+            if (zone.isForSale()) result.add(zone);
         }
         return result;
     }

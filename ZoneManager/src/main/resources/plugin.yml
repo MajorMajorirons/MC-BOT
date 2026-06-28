@@ -2,7 +2,8 @@ name: ZoneManager
 version: 1.0.0
 main: com.server.zonemanager.ZoneManager
 api-version: 1.20
-description: 座標指定によるゾーン管理・爆発保護
+description: 座標指定によるゾーン管理・爆発保護・土地売買
+softdepend: [Vault]
 
 commands:
   zone:
