@@ -243,6 +243,38 @@ function writeScheduleConfig(cfg) {
 // start-server.js から呼ばれる
 let _serverPath = '';
 
+// プレイヤー位置キャッシュ（ZoneManager プラグインから POST される）
+let _playerPositions = {};
+const PLUGIN_API_KEY = process.env.PLUGIN_API_KEY || 'changeme';
+
+function readZones() {
+    try {
+        const zonesPath = path.join(_serverPath, 'plugins', 'ZoneManager', 'zones.yml');
+        if (!fs.existsSync(zonesPath)) return {};
+        const text = fs.readFileSync(zonesPath, 'utf8');
+        const zones = {};
+        let inZones = false, current = null;
+        for (const line of text.split(/\r?\n/)) {
+            if (line === 'zones:') { inZones = true; continue; }
+            if (!inZones) continue;
+            const nm = line.match(/^  (\S+):$/);
+            if (nm) { current = nm[1]; zones[current] = { name: current }; continue; }
+            if (current) {
+                const kv = line.match(/^    ([^:\s]+): ?(.*)$/);
+                if (kv) {
+                    let v = kv[2];
+                    if (v === 'true') v = true;
+                    else if (v === 'false') v = false;
+                    else if (v === 'null' || v === '') v = null;
+                    else if (/^-?\d+(\.\d+)?$/.test(v)) v = Number(v);
+                    zones[current][kv[1]] = v;
+                }
+            }
+        }
+        return zones;
+    } catch { return {}; }
+}
+
 function startAdminPanel({ port, serverPath, getProcess, dbPath, schedulePath, reloadSchedule, getOnlinePlayers,
                            getDiscordClient, clientId, clientSecret, panelUrl, adminRoleId,
                            onStart, onStop, onRestart }) {
@@ -357,10 +389,47 @@ function startAdminPanel({ port, serverPath, getProcess, dbPath, schedulePath, r
         }
     });
 
+    // ---- 公開ルート（認証不要）----
+
+    // ゾーン一覧（zones.yml を直接読む）
+    app.get('/public/zones', (req, res) => res.json(readZones()));
+
+    // プレイヤー位置（30秒以上更新なしは除外）
+    app.get('/public/players', (req, res) => {
+        const now = Date.now();
+        const active = Object.fromEntries(
+            Object.entries(_playerPositions).filter(([, p]) => now - p.updated < 30000)
+        );
+        res.json(active);
+    });
+
+    // プラグインからの位置更新（APIキー認証）
+    app.post('/api/plugin/update', (req, res) => {
+        if (req.headers['x-plugin-key'] !== PLUGIN_API_KEY)
+            return res.status(401).json({ error: 'Unauthorized' });
+        const { players } = req.body || {};
+        if (players && typeof players === 'object') {
+            const now = Date.now();
+            _playerPositions = Object.fromEntries(
+                Object.entries(players).map(([name, p]) => [name, { ...p, updated: now }])
+            );
+        }
+        res.json({ ok: true });
+    });
+
+    // マップページ（ゾーン + プレイヤー位置を表示）
+    app.get('/map', (req, res) => {
+        const mapFile = path.join(__dirname, 'public', 'map.html');
+        if (fs.existsSync(mapFile)) return res.sendFile(mapFile);
+        res.status(404).send('map.html が見つかりません。');
+    });
+
     // 認証ミドルウェア（/auth/* 以外に適用）
     const skipAuth = process.env.ADMIN_SKIP_AUTH === 'true';
     const requireAuth = (req, res, next) => {
-        if (req.path.startsWith('/auth/') || req.path === '/ping') return next();
+        if (req.path.startsWith('/auth/') || req.path === '/ping' ||
+            req.path.startsWith('/public/') || req.path === '/map' ||
+            req.path === '/api/plugin/update') return next();
         if (skipAuth) {
             req.session = { userId: 'bypass', username: '管理者(bypass)', avatar: null, authorizedGuilds: [] };
             return next();

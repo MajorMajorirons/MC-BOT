@@ -1,0 +1,9 @@
+# ZoneManager 設定
+
+# 管理パネルの URL（ZoneMapページ連携用）
+# ポートは admin-panel.js の PORT と合わせてください
+map-server-url: "http://127.0.0.1:3000"
+
+# プラグインAPIキー（admin-panel.js の PLUGIN_API_KEY と合わせてください）
+# .env で PLUGIN_API_KEY=xxxx を設定した場合はそちらに合わせてください
+plugin-api-key: "changeme"

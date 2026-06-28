@@ -11,6 +11,8 @@ public class ZoneManager extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
+
         storage = new ZoneStorage(getDataFolder(), getLogger());
         storage.load();
 
@@ -23,6 +25,14 @@ public class ZoneManager extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new ZoneListener(storage), this);
         getCommand("zone").setExecutor(new ZoneCommand(storage, economy));
+
+        // プレイヤー位置を管理パネルに送信（5秒ごと）
+        String mapUrl = getConfig().getString("map-server-url", "");
+        String apiKey = getConfig().getString("plugin-api-key", "changeme");
+        if (mapUrl != null && !mapUrl.isEmpty()) {
+            new MapReporter(mapUrl, apiKey).runTaskTimerAsynchronously(this, 20L, 100L);
+            getLogger().info("MapReporter 開始 → " + mapUrl);
+        }
 
         getLogger().info("ZoneManager 有効化 - " + storage.getAllZones().size() + " ゾーン読み込み済み");
     }

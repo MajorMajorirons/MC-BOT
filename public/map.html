@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ゾーンマップ</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { display: flex; height: 100vh; background: #0d1117; color: #e6edf3; font-family: 'Segoe UI', sans-serif; overflow: hidden; }
+
+    #sidebar {
+      width: 260px; flex-shrink: 0;
+      background: #161b22; border-right: 1px solid #30363d;
+      display: flex; flex-direction: column; overflow: hidden;
+    }
+    #sidebar-header {
+      padding: 14px 16px 10px;
+      border-bottom: 1px solid #30363d;
+      background: #0d1117;
+    }
+    #sidebar-header h1 { font-size: 15px; font-weight: 600; color: #58a6ff; }
+    #sidebar-header p  { font-size: 11px; color: #8b949e; margin-top: 2px; }
+
+    #sidebar-body { flex: 1; overflow-y: auto; padding: 10px 12px; }
+    #sidebar-body::-webkit-scrollbar { width: 4px; }
+    #sidebar-body::-webkit-scrollbar-track { background: transparent; }
+    #sidebar-body::-webkit-scrollbar-thumb { background: #30363d; border-radius: 2px; }
+
+    .section-title {
+      font-size: 10px; font-weight: 600; color: #8b949e;
+      text-transform: uppercase; letter-spacing: 1.2px;
+      margin: 12px 0 6px; padding-bottom: 4px;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .legend { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+    .legend-item { display: flex; align-items: center; gap: 4px; font-size: 10px; color: #8b949e; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+    .player-item {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 8px; border-radius: 6px; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .player-item:hover { background: #21262d; }
+    .player-avatar { width: 20px; height: 20px; border-radius: 3px; flex-shrink: 0; }
+    .player-info { min-width: 0; }
+    .player-name { font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .player-pos  { font-size: 10px; color: #8b949e; }
+
+    .zone-item {
+      padding: 8px 10px; border-radius: 6px; cursor: pointer;
+      border-left: 3px solid #30363d; margin-bottom: 4px;
+      transition: background 0.15s;
+    }
+    .zone-item:hover { background: #21262d; }
+    .zone-item.admin  { border-color: #f85149; }
+    .zone-item.player { border-color: #3fb950; }
+    .zone-item.sale   { border-color: #d29922; }
+    .zone-item.unsafe { border-color: #388bfd; }
+    .zone-name { font-size: 12px; font-weight: 600; }
+    .zone-meta { font-size: 10px; color: #8b949e; margin-top: 2px; }
+
+    #status { padding: 8px 16px; font-size: 10px; color: #6e7681; border-top: 1px solid #21262d; background: #0d1117; }
+
+    #map { flex: 1; }
+    .leaflet-container { background: #1c2128 !important; }
+
+    /* ポップアップ スタイル */
+    .leaflet-popup-content-wrapper { background: #161b22 !important; border: 1px solid #30363d; color: #e6edf3 !important; border-radius: 8px !important; }
+    .leaflet-popup-tip { background: #161b22 !important; }
+    .leaflet-popup-content { margin: 12px 14px !important; line-height: 1.6 !important; }
+    .popup-title { font-size: 14px; font-weight: 600; color: #58a6ff; margin-bottom: 6px; }
+    .popup-row { font-size: 12px; display: flex; gap: 6px; }
+    .popup-label { color: #8b949e; min-width: 70px; }
+    .popup-val { color: #e6edf3; }
+
+    .empty-msg { font-size: 11px; color: #6e7681; padding: 4px 0; }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <div id="sidebar-header">
+      <h1>🗺 Zone Map</h1>
+      <p id="server-name">サーバーゾーンマップ</p>
+    </div>
+    <div id="sidebar-body">
+      <div class="section-title">凡例</div>
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#f8514980;border:1px solid #f85149"></div>管理者</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#3fb95080;border:1px solid #3fb950"></div>保護あり</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#388bfd80;border:1px solid #388bfd"></div>保護なし</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#d2992280;border:1px solid #d29922"></div>販売中</div>
+      </div>
+
+      <div class="section-title">👥 オンライン (<span id="player-count">0</span>)</div>
+      <div id="player-list"><div class="empty-msg">オフライン</div></div>
+
+      <div class="section-title">🏠 ゾーン一覧 (<span id="zone-count">0</span>)</div>
+      <div id="zone-list"><div class="empty-msg">ゾーンなし</div></div>
+    </div>
+    <div id="status">読み込み中...</div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // Leaflet: CRS.Simple = pixel coordinates, Y+ is up
+    // Minecraft: X = east, Z = south (positive Z = down on map)
+    // Map: lat = -z (flip), lng = x
+
+    const map = L.map('map', {
+      crs: L.CRS.Simple,
+      minZoom: -6, maxZoom: 4,
+      zoomControl: true
+    });
+
+    map.setView([-0, 0], -3);
+
+    // グリッド線（チャンク境界 16ブロック）
+    function drawGrid() {
+      const step = 512; // 512ブロック間隔
+      for (let x = -8192; x <= 8192; x += step) {
+        L.polyline([[-8192, x],[8192, x]], { color:'#30363d', weight:0.5, opacity:0.5, interactive:false }).addTo(map);
+      }
+      for (let z = -8192; z <= 8192; z += step) {
+        L.polyline([[-z, -8192],[-z, 8192]], { color:'#30363d', weight:0.5, opacity:0.5, interactive:false }).addTo(map);
+      }
+      // 原点ライン
+      L.polyline([[0,-8192],[0,8192]], { color:'#388bfd', weight:1, opacity:0.6, interactive:false }).addTo(map);
+      L.polyline([[-8192,0],[8192,0]], { color:'#388bfd', weight:1, opacity:0.6, interactive:false }).addTo(map);
+    }
+    drawGrid();
+
+    function mc2ll(x, z)  { return [-z, x]; }
+    function zoneBounds(z) { return [ mc2ll(z.x1, z.z1), mc2ll(z.x2, z.z2) ]; }
+
+    function zoneStyle(z) {
+      if (!z.owner_uuid) return { color:'#f85149', fillColor:'#f8514930', weight:2, fillOpacity:1 };
+      if (z.sell_price > 0) return { color:'#d29922', fillColor:'#d2992230', weight:2, fillOpacity:1 };
+      if (z.explosion_protected) return { color:'#3fb950', fillColor:'#3fb95030', weight:2, fillOpacity:1 };
+      return { color:'#388bfd', fillColor:'#388bfd25', weight:2, fillOpacity:1 };
+    }
+
+    function popupHtml(z) {
+      const owner = z.owner_uuid ? z.owner_name : '<span style="color:#f85149">管理者ゾーン</span>';
+      const sale  = z.sell_price > 0
+        ? `<span style="color:#d29922">💰 ${z.sell_price.toLocaleString()}</span>`
+        : '<span style="color:#6e7681">非売品</span>';
+      return `<div class="popup-title">🏠 ${z.name}</div>
+        <div class="popup-row"><span class="popup-label">所有者</span><span class="popup-val">${owner}</span></div>
+        <div class="popup-row"><span class="popup-label">爆発保護</span><span class="popup-val">${z.explosion_protected ? '✅ 有効' : '❌ 無効'}</span></div>
+        <div class="popup-row"><span class="popup-label">販売</span><span class="popup-val">${sale}</span></div>
+        <div class="popup-row"><span class="popup-label">ワールド</span><span class="popup-val">${z.world || 'world'}</span></div>
+        <div class="popup-row"><span class="popup-label">座標1</span><span class="popup-val">(${z.x1}, ${z.y1}, ${z.z1})</span></div>
+        <div class="popup-row"><span class="popup-label">座標2</span><span class="popup-val">(${z.x2}, ${z.y2}, ${z.z2})</span></div>`;
+    }
+
+    const zoneLayers   = {};
+    const playerLayers = {};
+
+    function renderZones(zones) {
+      const entries = Object.values(zones);
+      document.getElementById('zone-count').textContent = entries.length;
+
+      // 消えたゾーンを削除
+      const names = new Set(entries.map(z => z.name));
+      for (const [n, l] of Object.entries(zoneLayers)) {
+        if (!names.has(n)) { map.removeLayer(l); delete zoneLayers[n]; }
+      }
+
+      const list = document.getElementById('zone-list');
+      list.innerHTML = entries.length === 0 ? '<div class="empty-msg">ゾーンなし</div>' : '';
+
+      for (const z of entries) {
+        // マップレイヤー
+        if (!zoneLayers[z.name]) {
+          const rect = L.rectangle(zoneBounds(z), zoneStyle(z)).addTo(map);
+          rect.bindPopup(popupHtml(z), { maxWidth: 260 });
+          zoneLayers[z.name] = rect;
+        } else {
+          zoneLayers[z.name].setStyle(zoneStyle(z));
+          zoneLayers[z.name].bindPopup(popupHtml(z));
+        }
+
+        // サイドバー
+        const isAdmin = !z.owner_uuid;
+        const cls = isAdmin ? 'admin' : (z.sell_price > 0 ? 'sale' : (z.explosion_protected ? 'player' : 'unsafe'));
+        const div = document.createElement('div');
+        div.className = `zone-item ${cls}`;
+        const saleTag = z.sell_price > 0 ? ` <span style="color:#d29922">💰</span>` : '';
+        const expTag  = z.explosion_protected ? ' 🛡' : '';
+        div.innerHTML = `<div class="zone-name">${z.name}${saleTag}</div>
+          <div class="zone-meta">${isAdmin ? '[管理者]' : z.owner_name}${expTag}</div>`;
+        div.onclick = () => {
+          map.fitBounds(zoneBounds(z), { padding: [40, 40], maxZoom: 2 });
+          setTimeout(() => zoneLayers[z.name]?.openPopup(), 300);
+        };
+        list.appendChild(div);
+      }
+    }
+
+    function makePlayerIcon(name) {
+      return L.divIcon({
+        html: `<div style="position:relative;width:32px;height:32px">
+          <img src="https://minotar.net/helm/${name}/28" style="width:28px;height:28px;border:2px solid #58a6ff;border-radius:4px;background:#161b22" onerror="this.src='https://minotar.net/helm/MHF_Steve/28'">
+        </div>`,
+        className: '', iconSize: [28, 28], iconAnchor: [14, 14]
+      });
+    }
+
+    function renderPlayers(players) {
+      const entries = Object.entries(players);
+      document.getElementById('player-count').textContent = entries.length;
+
+      const names = new Set(entries.map(([n]) => n));
+      for (const [n, l] of Object.entries(playerLayers)) {
+        if (!names.has(n)) { map.removeLayer(l); delete playerLayers[n]; }
+      }
+
+      const list = document.getElementById('player-list');
+      list.innerHTML = entries.length === 0 ? '<div class="empty-msg">オフライン</div>' : '';
+
+      for (const [name, p] of entries) {
+        const ll = mc2ll(p.x, p.z);
+        if (playerLayers[name]) {
+          playerLayers[name].setLatLng(ll);
+          playerLayers[name].setTooltipContent(name);
+        } else {
+          playerLayers[name] = L.marker(ll, { icon: makePlayerIcon(name), zIndexOffset: 1000 })
+            .bindTooltip(name, { direction: 'top', offset: [0, -16], permanent: false })
+            .addTo(map);
+        }
+
+        const div = document.createElement('div');
+        div.className = 'player-item';
+        div.innerHTML = `<img class="player-avatar" src="https://minotar.net/helm/${name}/20" onerror="this.style.display='none'">
+          <div class="player-info">
+            <div class="player-name">${name}</div>
+            <div class="player-pos">X:${Math.round(p.x)} Y:${Math.round(p.y)} Z:${Math.round(p.z)}</div>
+          </div>`;
+        div.onclick = () => { map.setView(mc2ll(p.x, p.z), 0); };
+        list.appendChild(div);
+      }
+    }
+
+    let lastUpdated = null;
+    async function refresh() {
+      try {
+        const [zones, players] = await Promise.all([
+          fetch('/public/zones').then(r => r.json()),
+          fetch('/public/players').then(r => r.json()),
+        ]);
+        renderZones(zones);
+        renderPlayers(players);
+        lastUpdated = new Date();
+        document.getElementById('status').textContent = '最終更新: ' + lastUpdated.toLocaleTimeString('ja-JP');
+      } catch (e) {
+        document.getElementById('status').textContent = 'エラー: ' + e.message;
+      }
+    }
+
+    refresh();
+    setInterval(refresh, 5000);
+  </script>
+</body>
+</html>

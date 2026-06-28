@@ -87,6 +87,35 @@ let recentCrashTimestamps = [];
 // Discord /market buy|sell コマンドの応答待ちマップ: txId -> { interaction, timer }
 const pendingMarketRequests = new Map();
 
+// ゾーン情報読み込み（zones.yml から）
+function readZones() {
+    try {
+        const zonesPath = path.join(__dirname, 'plugins', 'ZoneManager', 'zones.yml');
+        if (!fs.existsSync(zonesPath)) return {};
+        const text = fs.readFileSync(zonesPath, 'utf8');
+        const zones = {};
+        let inZones = false, current = null;
+        for (const line of text.split(/\r?\n/)) {
+            if (line === 'zones:') { inZones = true; continue; }
+            if (!inZones) continue;
+            const nm = line.match(/^  (\S+):$/);
+            if (nm) { current = nm[1]; zones[current] = { name: current }; continue; }
+            if (current) {
+                const kv = line.match(/^    ([^:\s]+): ?(.*)$/);
+                if (kv) {
+                    let v = kv[2];
+                    if (v === 'true') v = true;
+                    else if (v === 'false') v = false;
+                    else if (v === 'null' || v === '') v = null;
+                    else if (/^-?\d+(\.\d+)?$/.test(v)) v = Number(v);
+                    zones[current][kv[1]] = v;
+                }
+            }
+        }
+        return zones;
+    } catch { return {}; }
+}
+
 // --- スラッシュコマンドの定義 ---
 const commands = [
     new SlashCommandBuilder()
@@ -137,6 +166,17 @@ const commands = [
             .setName('command')
             .setDescription('実行するコマンド（/ は不要）')
             .setRequired(true)),
+    new SlashCommandBuilder()
+        .setName('zone')
+        .setDescription('ゾーン（土地）情報を確認する')
+        .addSubcommand(sub => sub
+            .setName('list')
+            .setDescription('全ゾーン一覧を表示する'))
+        .addSubcommand(sub => sub
+            .setName('info')
+            .setDescription('特定ゾーンの詳細を表示する')
+            .addStringOption(opt => opt
+                .setName('name').setDescription('ゾーン名').setRequired(true))),
     new SlashCommandBuilder()
         .setName('db')
         .setDescription('データベース管理（管理者専用）')
@@ -297,8 +337,8 @@ discordClient.on('interactionCreate', async (interaction) => {
 
     const { commandName } = interaction;
 
-    // /market price, /market list, /link は誰でも使える
-    const isPublicCmd = commandName === 'link' ||
+    // /market price, /market list, /link, /zone は誰でも使える
+    const isPublicCmd = commandName === 'link' || commandName === 'zone' ||
         (commandName === 'market' && ['price', 'list'].includes(interaction.options.getSubcommand(false)));
 
     if (!isPublicCmd && adminRoleId && !interaction.member.roles.cache.has(adminRoleId)) {
@@ -369,6 +409,64 @@ discordClient.on('interactionCreate', async (interaction) => {
         const lines = await captureOutput(cmd, 1200);
         const msg = formatCapturedOutput(lines);
         return interaction.editReply({ content: `\`${cmd}\`\n${msg}` });
+    }
+
+    // (Z) ゾーンコマンド
+    if (commandName === 'zone') {
+        const sub = interaction.options.getSubcommand();
+        const zones = readZones();
+        const entries = Object.values(zones);
+
+        if (sub === 'list') {
+            if (entries.length === 0) {
+                return interaction.reply({ content: '登録されているゾーンはありません。', ephemeral: true });
+            }
+
+            const ADMIN_COLOR = 0xf85149;
+            const lines = entries.map(z => {
+                const owner = z.owner_uuid ? z.owner_name : '**[管理]**';
+                const exp   = z.explosion_protected ? '🛡' : '　';
+                const sale  = z.sell_price > 0 ? ` 💰${z.sell_price.toLocaleString()}` : '';
+                return `${exp} **${z.name}** › ${owner}${sale}`;
+            });
+
+            const PER_PAGE = 15;
+            const page1 = lines.slice(0, PER_PAGE).join('\n');
+            const more  = lines.length > PER_PAGE ? `\n…他 ${lines.length - PER_PAGE} 件` : '';
+
+            const embed = new EmbedBuilder()
+                .setTitle('🗺 ゾーン一覧')
+                .setColor(0x58a6ff)
+                .setDescription(page1 + more)
+                .setFooter({ text: `合計 ${entries.length} ゾーン | 詳細: /zone info <名前>` });
+
+            return interaction.reply({ embeds: [embed] });
+        }
+
+        if (sub === 'info') {
+            const name = interaction.options.getString('name');
+            const z = zones[name];
+            if (!z) {
+                return interaction.reply({
+                    content: `ゾーン **${name}** が見つかりません。\`/zone list\` で一覧を確認してください。`,
+                    ephemeral: true
+                });
+            }
+            const isAdmin = !z.owner_uuid;
+            const color = isAdmin ? 0xf85149 : (z.sell_price > 0 ? 0xd29922 : (z.explosion_protected ? 0x3fb950 : 0x388bfd));
+            const embed = new EmbedBuilder()
+                .setTitle(`🏠 ${z.name}`)
+                .setColor(color)
+                .addFields(
+                    { name: '所有者',    value: isAdmin ? '🔴 管理者ゾーン' : z.owner_name, inline: true },
+                    { name: '爆発保護',  value: z.explosion_protected ? '✅ 有効' : '❌ 無効', inline: true },
+                    { name: '販売',      value: z.sell_price > 0 ? `💰 ${Number(z.sell_price).toLocaleString()}` : '非売品', inline: true },
+                    { name: 'ワールド',  value: z.world || 'world', inline: true },
+                    { name: '座標1',     value: `(${z.x1}, ${z.y1}, ${z.z1})`, inline: true },
+                    { name: '座標2',     value: `(${z.x2}, ${z.y2}, ${z.z2})`, inline: true },
+                );
+            return interaction.reply({ embeds: [embed] });
+        }
     }
 
     // (D') DB管理コマンド
