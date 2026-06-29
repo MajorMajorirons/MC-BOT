@@ -245,6 +245,8 @@ let _serverPath = '';
 
 // プレイヤー位置キャッシュ（ZoneManager プラグインから POST される）
 let _playerPositions = {};
+// 地形キャッシュ: { worldName: { "cx,cz": [color0,...,color15] } }
+let _terrainData = {};
 const PLUGIN_API_KEY = process.env.PLUGIN_API_KEY || 'changeme';
 
 function readZones() {
@@ -416,6 +418,23 @@ function startAdminPanel({ port, serverPath, getProcess, dbPath, schedulePath, r
         }
         res.json({ ok: true });
     });
+
+    // プラグインからの地形データ更新（APIキー認証）
+    app.post('/api/plugin/terrain', (req, res) => {
+        if (req.headers['x-plugin-key'] !== PLUGIN_API_KEY)
+            return res.status(401).json({ error: 'Unauthorized' });
+        if (req.body && typeof req.body === 'object') {
+            // マージ（増分更新）
+            for (const [world, chunks] of Object.entries(req.body)) {
+                if (!_terrainData[world]) _terrainData[world] = {};
+                Object.assign(_terrainData[world], chunks);
+            }
+        }
+        res.json({ ok: true });
+    });
+
+    // 地形データ公開
+    app.get('/public/terrain', (req, res) => res.json(_terrainData));
 
     // マップページ（ゾーン + プレイヤー位置を表示）
     app.get('/map', (req, res) => {

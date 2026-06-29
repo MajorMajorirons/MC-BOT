@@ -39,12 +39,17 @@ public class ZoneManager extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new ZoneListener(storage, selections, wandKey), this);
         getCommand("zone").setExecutor(new ZoneCommand(storage, economy, selections, wandKey));
 
-        // プレイヤー位置を管理パネルに送信（5秒ごと）
+        // プレイヤー位置・地形を管理パネルに送信
         String mapUrl = getConfig().getString("map-server-url", "");
         String apiKey = getConfig().getString("plugin-api-key", "changeme");
         if (mapUrl != null && !mapUrl.isEmpty()) {
+            // 位置: 5秒ごと（非同期）
             new MapReporter(mapUrl, apiKey).runTaskTimerAsynchronously(this, 20L, 100L);
-            getLogger().info("MapReporter 開始 → " + mapUrl);
+            // 地形: 60秒ごと（メインスレッドで取得 → 非同期で送信）
+            TerrainScanner scanner = new TerrainScanner(this, mapUrl, apiKey);
+            getServer().getScheduler().runTaskTimer(this,
+                scanner::scanAndSend, 40L, 1200L);
+            getLogger().info("MapReporter / TerrainScanner 開始 → " + mapUrl);
         }
 
         getLogger().info("ZoneManager 有効化 - " + storage.getAllZones().size() + " ゾーン読み込み済み");
